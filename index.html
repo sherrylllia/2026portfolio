@@ -12,7 +12,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#hero" class="nav-logo">YourName.</a>
+  <a href="#hero" class="nav-logo">Sherry HsuanLing Liang.</a>
   <ul class="nav-links">
     <li><a href="#about">關於</a></li>
     <li><a href="#projects">作品</a></li>
@@ -23,30 +23,23 @@
 
 <!-- HERO -->
 <section id="hero">
-  <p class="hero-eyebrow">UI/UX Designer — Based in Taipei</p>
-  <h1 class="hero-title">
-    設計讓人<br>
-    <em>感受到的</em><br>
-    體驗
-  </h1>
-  <p class="hero-sub">專注於使用者體驗設計，將複雜的問題轉化為直覺且美麗的解決方案。</p>
-
-  <div class="hero-divider"></div>
-  <div class="hero-meta">
-    <div class="hero-meta-item">
-      <label>現況</label>
-      <span>接受合作邀約</span>
+  <div class="hero-content">
+    <div class="hero-text">
+      <p class="hero-eyebrow">UI/UX Designer — Based in Taipei</p>
+      <h1 class="hero-title">
+        Sherry Liang<br>Portfolio
+      </h1>
+      <p class="hero-sub">專注於使用者體驗設計，將複雜的問題轉化為直覺且美麗的解決方案。</p>
     </div>
-    <div class="hero-meta-item">
-      <label>專長</label>
-      <span>UX Research · UI Design</span>
-    </div>
-    <div class="hero-meta-item">
-      <label>年資</label>
-      <span>5+ 年經驗</span>
+    <div class="hero-photo">
+      <img src="IMG_9108.JPG" alt="Sherry Liang">
     </div>
   </div>
 
+  <div class="hero-divider"></div>
+  <div class="hero-meta">
+    ...
+  </div>
   <div class="hero-scroll">Scroll</div>
 </section>
 
@@ -54,30 +47,39 @@
 <section id="about">
   <div class="about-grid">
     <div>
-      <p class="about-label">關於我</p>
-      <h2 class="about-headline">以人為本，<br><em style="font-style:italic; color:var(--accent);">設計為橋</em></h2>
+      <p class="about-label" style="font-size: 2rem;">About me</p>
+      <h2 class="about-headline" style="font-size: clamp(2.5rem, 5vw, 4rem);">關於我</h2>
+      <!-- <h2 class="about-headline">以人為本，<br><em style="font-style:italic; color:var(--accent);">設計為橋</em></h2> -->
     </div>
     <div class="about-body reveal">
-      <p>嗨，我是 <strong>你的名字</strong>，一位熱愛解決問題的 UI/UX 設計師。我相信好的設計不只是視覺上的美感，更是能讓使用者在使用產品時感受到直覺、流暢與愉悅。</p>
-      <p>過去 5 年間，我與各類型的新創公司及品牌合作，從前期的 UX Research、使用者訪談，到介面設計與 Design System 的建立。我擅長在商業目標與使用者需求之間找到最佳平衡點。</p>
-      <p>工作以外，我喜歡攝影、閱讀設計理論，以及研究日常生活中被忽略的使用者體驗細節。</p>
+      <p>嗨，我是 <strong>Sherry</strong>，一位熱愛解決問題的 UI/UX 設計師。我相信好的設計不只是視覺上的美感，更是能讓使用者在使用產品時感受到直覺、流暢與愉悅。</p>
+      <p>過去的實習經驗中，我在華南銀行擔任UI設計實習生，負責過多個專案的介面設計與 icon 的建立。我擅長在商業目標與使用者需求之間找到最佳平衡點。</p>
+      <p>工作以外，我喜歡攝影📷 音樂🎵 天文觀星🔭 旅遊🧳。</p>
+
+      <!-- Education -->
+      <div class="about-education reveal">
+        <h2>學歷 Education</h2>
+        <div class="edu-card">
+          <div class="edu-info">
+            <div class="edu-title-row">
+              <h4>國立政治大學 NCCU</h4>
+              <div class="edu-year">2022 — 2027</div>
+            </div>
+            <p>廣告學系</p>
+            <p>雙主修｜數位內容與科技學士學位學程</p>
+            <p>輔系｜韓國語文學系</p>
+          </div>
+        </div>
+      </div>
 
       <div class="about-values">
         <div class="about-value">
-          <span>50+</span>
+          <span>5+</span>
           <p>完成專案</p>
         </div>
         <div class="about-value">
-          <span>20+</span>
-          <p>合作品牌</p>
-        </div>
-        <div class="about-value">
-          <span>5+</span>
-          <p>年資經驗</p>
-        </div>
-        <div class="about-value">
-          <span>3×</span>
-          <p>設計獎項</p>
+          <span>2+</span>
+          <p>實習年資經驗</p>
         </div>
       </div>
     </div>
@@ -88,7 +90,7 @@
 <section id="projects">
   <div class="section-header reveal">
     <div>
-      <span class="section-label">精選作品</span>
+      <p class="about-label" style="font-size: 2rem;">精選作品</p>
       <h2 class="section-title">我的設計案例</h2>
     </div>
   </div>
@@ -152,7 +154,7 @@
 <section id="skills">
   <div class="section-header reveal">
     <div>
-      <span class="section-label">專業技能</span>
+      <p class="about-label" style="font-size: 2rem;">Expertise</p>
       <h2 class="section-title">我能做什麼</h2>
     </div>
   </div>
@@ -225,10 +227,10 @@
 <section id="contact">
   <div class="contact-inner">
     <div class="reveal">
-      <span class="section-label">聯絡我</span>
+      <p class="about-label" style="font-size: 2rem;">Contact me</p>
       <h2 class="contact-cta">有個好想法？<br>一起把它<br><em>設計出來</em></h2>
       <div class="contact-links">
-        <a href="mailto:hello@yourname.com" class="contact-link">hello@yourname.com</a>
+        <a href="mailto:sherry200493@gmail.com" class="contact-link">sherry200493@gmail.com</a>
         <a href="#" class="contact-link">LinkedIn</a>
         <a href="#" class="contact-link">Behance / Dribbble</a>
       </div>
