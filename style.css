@@ -514,3 +514,106 @@ footer {
   height: 100%;
   object-fit: cover;
 }
+
+/* ── FEATURED PROJECT ── */
+.project-featured {
+  margin-bottom: 3rem;
+}
+.project-featured-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 0;
+}
+.project-item--featured {
+  border: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 2.5rem;
+}
+.project-item--featured .project-num {
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.project-item--featured h3 {
+  font-size: 1.8rem;
+}
+.project-desc {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+/* ── PROJECT CATEGORIES ── */
+.project-category {
+  margin-top: 3.5rem;
+}
+.project-category-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--line);
+}
+
+/* ── LANGUAGE SWITCHER ── */
+.lang-switcher {
+  position: relative;
+}
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  border: 1px solid var(--line);
+  padding: 0.4rem 0.75rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+.lang-btn:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.lang-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  min-width: 120px;
+  display: none;
+  flex-direction: column;
+  z-index: 200;
+}
+.lang-dropdown.open {
+  display: flex;
+}
+.lang-option {
+  background: transparent;
+  border: none;
+  padding: 0.65rem 1rem;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.lang-option:hover {
+  background: var(--accent-light);
+  color: var(--ink);
+}
+.lang-option.active {
+  color: var(--accent);
+  font-weight: 500;
+}

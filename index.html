@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio — UI/UX Designer</title>
+  <title>Portfolio — Sherry Liang</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -14,22 +14,34 @@
 <nav>
   <a href="#hero" class="nav-logo">Sherry HsuanLing Liang.</a>
   <ul class="nav-links">
-    <li><a href="#about">關於</a></li>
-    <li><a href="#projects">作品</a></li>
-    <li><a href="#skills">技能</a></li>
-    <li><a href="#contact">聯絡</a></li>
+    <li><a href="#about" data-i18n="nav.about">About</a></li>
+    <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+    <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
   </ul>
+  <div class="lang-switcher">
+    <button class="lang-btn" id="langToggle">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+      </svg>
+      <span id="currentLang">EN</span>
+    </button>
+    <div class="lang-dropdown" id="langDropdown">
+      <button class="lang-option active" data-lang="en">English</button>
+      <button class="lang-option" data-lang="zh">中文</button>
+      <button class="lang-option" data-lang="ko">한국어</button>
+    </div>
+  </div>
 </nav>
 
 <!-- HERO -->
 <section id="hero">
   <div class="hero-content">
     <div class="hero-text">
-      <p class="hero-eyebrow">UI/UX Designer — Based in Taipei</p>
-      <h1 class="hero-title">
-        Sherry Liang<br>Portfolio
-      </h1>
-      <p class="hero-sub">專注於使用者體驗設計，將複雜的問題轉化為直覺且美麗的解決方案。</p>
+      <p class="hero-eyebrow" data-i18n="hero.eyebrow">UI/UX Designer — Based in Taipei</p>
+      <h1 class="hero-title">Sherry Liang<br>Portfolio</h1>
+      <p class="hero-sub" data-i18n="hero.sub">Transforming complex problems into intuitive and beautiful user experiences.</p>
     </div>
     <div class="hero-photo">
       <img src="IMG_9108.JPG" alt="Sherry Liang">
@@ -38,7 +50,18 @@
 
   <div class="hero-divider"></div>
   <div class="hero-meta">
-    ...
+    <div class="hero-meta-item">
+      <label data-i18n="hero.status.label">Status</label>
+      <span data-i18n="hero.status.value">Open to opportunities</span>
+    </div>
+    <div class="hero-meta-item">
+      <label data-i18n="hero.expertise.label">Expertise</label>
+      <span>UX Research · UI Design · Photography</span>
+    </div>
+    <div class="hero-meta-item">
+      <label data-i18n="hero.exp.label">Experience</label>
+      <span data-i18n="hero.exp.value">2+ years internship</span>
+    </div>
   </div>
   <div class="hero-scroll">Scroll</div>
 </section>
@@ -47,27 +70,26 @@
 <section id="about">
   <div class="about-grid">
     <div>
-      <p class="about-label" style="font-size: 2rem;">About me</p>
-      <h2 class="about-headline" style="font-size: clamp(2.5rem, 5vw, 4rem);">關於我</h2>
-      <!-- <h2 class="about-headline">以人為本，<br><em style="font-style:italic; color:var(--accent);">設計為橋</em></h2> -->
+      <p class="about-label" style="font-size: 2rem;" data-i18n="about.label">About me</p>
+      <h2 class="about-headline" style="font-size: clamp(2.5rem, 5vw, 4rem);" data-i18n="about.headline">About me</h2>
     </div>
     <div class="about-body reveal">
-      <p>嗨，我是 <strong>Sherry</strong>，一位熱愛解決問題的 UI/UX 設計師。我相信好的設計不只是視覺上的美感，更是能讓使用者在使用產品時感受到直覺、流暢與愉悅。</p>
-      <p>過去的實習經驗中，我在華南銀行擔任UI設計實習生，負責過多個專案的介面設計與 icon 的建立。我擅長在商業目標與使用者需求之間找到最佳平衡點。</p>
-      <p>工作以外，我喜歡攝影📷 音樂🎵 天文觀星🔭 旅遊🧳。</p>
+      <p data-i18n="about.p1"></p>
+      <p data-i18n="about.p2"></p>
+      <p data-i18n="about.p3"></p>
 
       <!-- Education -->
       <div class="about-education reveal">
-        <h2>學歷 Education</h2>
+        <h2 data-i18n="about.edu.label">Education</h2>
         <div class="edu-card">
           <div class="edu-info">
             <div class="edu-title-row">
-              <h4>國立政治大學 NCCU</h4>
+              <h4>National Chengchi University (NCCU)</h4>
               <div class="edu-year">2022 — 2027</div>
             </div>
-            <p>廣告學系</p>
-            <p>雙主修｜數位內容與科技學士學位學程</p>
-            <p>輔系｜韓國語文學系</p>
+            <p data-i18n="about.edu.major">Department of Advertising</p>
+            <p data-i18n="about.edu.double">Double Major｜B.A. Program in Digital Content & Technology</p>
+            <p data-i18n="about.edu.minor">Minor｜Department of Korean Language & Literature</p>
           </div>
         </div>
       </div>
@@ -75,11 +97,11 @@
       <div class="about-values">
         <div class="about-value">
           <span>5+</span>
-          <p>完成專案</p>
+          <p data-i18n="about.stat1">Projects</p>
         </div>
         <div class="about-value">
           <span>2+</span>
-          <p>實習年資經驗</p>
+          <p data-i18n="about.stat2">Years of internship</p>
         </div>
       </div>
     </div>
@@ -90,63 +112,92 @@
 <section id="projects">
   <div class="section-header reveal">
     <div>
-      <p class="about-label" style="font-size: 2rem;">精選作品</p>
-      <h2 class="section-title">我的設計案例</h2>
+      <p class="about-label" style="font-size: 2rem;" data-i18n="projects.label">Selected Works</p>
+      <h2 class="section-title" data-i18n="projects.title">My Design Cases</h2>
     </div>
   </div>
 
-  <div class="projects-list">
-    <a class="project-item reveal" href="#">
-      <span class="project-num">01</span>
+  <!-- Graduation Project Featured -->
+  <div class="project-featured reveal">
+    <span class="project-featured-badge" data-i18n="projects.featured.badge">Graduation Project</span>
+    <a class="project-item project-item--featured" href="#">
+      <span class="project-num">✦</span>
       <div class="project-info">
-        <h3>金融 App 重新設計</h3>
+        <h3 data-i18n="projects.featured.title">Your Graduation Project Title</h3>
+        <p class="project-desc" data-i18n="projects.featured.desc">A short description of your project's core concept.</p>
         <div class="project-tags">
           <span class="tag">UX Research</span>
-          <span class="tag">Mobile</span>
-          <span class="tag">Design System</span>
-        </div>
-      </div>
-      <span class="project-arrow">↗</span>
-    </a>
-
-    <a class="project-item reveal" href="#">
-      <span class="project-num">02</span>
-      <div class="project-info">
-        <h3>電商平台體驗優化</h3>
-        <div class="project-tags">
-          <span class="tag">E-Commerce</span>
-          <span class="tag">Web</span>
-          <span class="tag">A/B Testing</span>
-        </div>
-      </div>
-      <span class="project-arrow">↗</span>
-    </a>
-
-    <a class="project-item reveal" href="#">
-      <span class="project-num">03</span>
-      <div class="project-info">
-        <h3>SaaS Dashboard 介面設計</h3>
-        <div class="project-tags">
-          <span class="tag">SaaS</span>
-          <span class="tag">Data Viz</span>
+          <span class="tag">UI Design</span>
           <span class="tag">Figma</span>
         </div>
       </div>
       <span class="project-arrow">↗</span>
     </a>
+  </div>
 
-    <a class="project-item reveal" href="#">
-      <span class="project-num">04</span>
-      <div class="project-info">
-        <h3>醫療預約系統 UX</h3>
-        <div class="project-tags">
-          <span class="tag">Healthcare</span>
-          <span class="tag">Accessibility</span>
-          <span class="tag">Research</span>
+  <!-- UI/UX Concept -->
+  <div class="project-category reveal">
+    <p class="project-category-label">UI/UX Concept</p>
+    <div class="projects-list">
+      <a class="project-item reveal" href="#">
+        <span class="project-num">01</span>
+        <div class="project-info">
+          <h3 data-i18n="projects.uiux.01.title">Finance App Redesign</h3>
+          <div class="project-tags">
+            <span class="tag">Mobile</span>
+            <span class="tag">Design System</span>
+          </div>
         </div>
-      </div>
-      <span class="project-arrow">↗</span>
-    </a>
+        <span class="project-arrow">↗</span>
+      </a>
+      <a class="project-item reveal" href="#">
+        <span class="project-num">02</span>
+        <div class="project-info">
+          <h3 data-i18n="projects.uiux.02.title">Medical Booking UX</h3>
+          <div class="project-tags">
+            <span class="tag">Healthcare</span>
+            <span class="tag">Accessibility</span>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Programming -->
+  <div class="project-category reveal">
+    <p class="project-category-label">Programming</p>
+    <div class="projects-list">
+      <a class="project-item reveal" href="#">
+        <span class="project-num">01</span>
+        <div class="project-info">
+          <h3 data-i18n="projects.prog.01.title">SaaS Dashboard Design</h3>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Data Viz</span>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Graphic Design -->
+  <div class="project-category reveal">
+    <p class="project-category-label">Graphic Design</p>
+    <div class="projects-list">
+      <a class="project-item reveal" href="#">
+        <span class="project-num">01</span>
+        <div class="project-info">
+          <h3 data-i18n="projects.graphic.01.title">E-commerce Visual Design</h3>
+          <div class="project-tags">
+            <span class="tag">Branding</span>
+            <span class="tag">Visual</span>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -154,8 +205,8 @@
 <section id="skills">
   <div class="section-header reveal">
     <div>
-      <p class="about-label" style="font-size: 2rem;">Expertise</p>
-      <h2 class="section-title">我能做什麼</h2>
+      <p class="about-label" style="font-size: 2rem;" data-i18n="skills.label">Expertise</p>
+      <h2 class="section-title" data-i18n="skills.title">What I Do</h2>
     </div>
   </div>
 
@@ -163,7 +214,7 @@
     <div class="skill-card reveal">
       <div class="skill-icon">🔍</div>
       <h3>UX Research</h3>
-      <p>使用者訪談、可用性測試、競品分析，將真實數據轉化為設計決策。</p>
+      <p data-i18n="skills.uxresearch">User interviews, usability testing, competitive analysis — turning real data into design decisions.</p>
       <div class="skill-tools">
         <span>User Interview</span>
         <span>Usability Test</span>
@@ -173,7 +224,7 @@
     <div class="skill-card reveal">
       <div class="skill-icon">✦</div>
       <h3>UI Design</h3>
-      <p>建立精緻一致的視覺語言，從元件設計到完整的 Design System。</p>
+      <p data-i18n="skills.uidesign">Building refined visual languages, from component design to complete Design Systems.</p>
       <div class="skill-tools">
         <span>Figma</span>
         <span>Design System</span>
@@ -182,8 +233,8 @@
     </div>
     <div class="skill-card reveal">
       <div class="skill-icon">📐</div>
-      <h3>互動設計</h3>
-      <p>打造流暢的使用者流程與微互動，讓每個操作都有意義。</p>
+      <h3 data-i18n="skills.interaction.title">Interaction Design</h3>
+      <p data-i18n="skills.interaction">Crafting smooth user flows and micro-interactions that make every action meaningful.</p>
       <div class="skill-tools">
         <span>Micro-interaction</span>
         <span>Animation</span>
@@ -192,8 +243,8 @@
     </div>
     <div class="skill-card reveal">
       <div class="skill-icon">♿</div>
-      <h3>無障礙設計</h3>
-      <p>遵循 WCAG 標準，確保產品對所有使用者都友善且可及。</p>
+      <h3 data-i18n="skills.a11y.title">Accessibility</h3>
+      <p data-i18n="skills.a11y">Following WCAG standards to ensure products are friendly and accessible to all users.</p>
       <div class="skill-tools">
         <span>WCAG 2.1</span>
         <span>Screen Reader</span>
@@ -202,8 +253,8 @@
     </div>
     <div class="skill-card reveal">
       <div class="skill-icon">💬</div>
-      <h3>跨部門協作</h3>
-      <p>與 PM、工程師、行銷無縫協作，確保設計落地且符合技術限制。</p>
+      <h3 data-i18n="skills.collab.title">Cross-team Collaboration</h3>
+      <p data-i18n="skills.collab">Working seamlessly with PMs, engineers, and marketing to ensure designs ship within technical constraints.</p>
       <div class="skill-tools">
         <span>Jira</span>
         <span>Notion</span>
@@ -212,8 +263,8 @@
     </div>
     <div class="skill-card reveal">
       <div class="skill-icon">📊</div>
-      <h3>數據驅動設計</h3>
-      <p>透過 A/B Testing 與數據分析持續優化產品體驗與轉換率。</p>
+      <h3 data-i18n="skills.datadriven.title">Data-driven Design</h3>
+      <p data-i18n="skills.datadriven">Using A/B testing and analytics to continuously optimize user experience and conversion rates.</p>
       <div class="skill-tools">
         <span>GA4</span>
         <span>Hotjar</span>
@@ -227,8 +278,8 @@
 <section id="contact">
   <div class="contact-inner">
     <div class="reveal">
-      <p class="about-label" style="font-size: 2rem;">Contact me</p>
-      <h2 class="contact-cta">有個好想法？<br>一起把它<br><em>設計出來</em></h2>
+      <p class="about-label" style="font-size: 2rem;" data-i18n="contact.label">Contact me</p>
+      <h2 class="contact-cta" data-i18n="contact.cta"></h2>
       <div class="contact-links">
         <a href="mailto:sherry200493@gmail.com" class="contact-link">sherry200493@gmail.com</a>
         <a href="#" class="contact-link">LinkedIn</a>
@@ -239,8 +290,8 @@
     <form class="contact-form reveal" onsubmit="return false;">
       <div class="form-row">
         <div class="form-field">
-          <label>姓名</label>
-          <input type="text" placeholder="你的名字">
+          <label data-i18n="contact.name">Name</label>
+          <input type="text" data-i18n-ph="contact.name.ph" placeholder="Your name">
         </div>
         <div class="form-field">
           <label>Email</label>
@@ -248,15 +299,15 @@
         </div>
       </div>
       <div class="form-field">
-        <label>主旨</label>
-        <input type="text" placeholder="合作提案、工作機會…">
+        <label data-i18n="contact.subject">Subject</label>
+        <input type="text" data-i18n-ph="contact.subject.ph" placeholder="Collaboration, job opportunity…">
       </div>
       <div class="form-field">
-        <label>訊息</label>
-        <textarea placeholder="告訴我你的想法…"></textarea>
+        <label data-i18n="contact.message">Message</label>
+        <textarea data-i18n-ph="contact.message.ph" placeholder="Tell me your idea…"></textarea>
       </div>
       <button class="btn" type="submit">
-        送出訊息
+        <span data-i18n="contact.send">Send Message</span>
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
           <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -267,8 +318,8 @@
 
 <!-- FOOTER -->
 <footer>
-  <span>© 2025 YourName. All rights reserved.</span>
-  <span>Designed with intention · Built with care</span>
+  <span data-i18n="footer.left">© 2025 Sherry Liang. All rights reserved.</span>
+  <span data-i18n="footer.right">Designed with intention · Built with care</span>
 </footer>
 
 <script src="main.js"></script>
