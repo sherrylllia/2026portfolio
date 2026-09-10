@@ -12,7 +12,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#hero" class="nav-logo">Sherry HsuanLing Liang.</a>
+  <a href="#hero" class="nav-logo">Sherry HsuanLing Liang 梁軒綾</a>
   <ul class="nav-links">
     <li><a href="#about" data-i18n="nav.about">About</a></li>
     <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
@@ -47,7 +47,6 @@
       <img src="IMG_9108.JPG" alt="Sherry Liang">
     </div>
   </div>
-
   <div class="hero-divider"></div>
   <div class="hero-meta">
     <div class="hero-meta-item">
@@ -78,7 +77,6 @@
       <p data-i18n="about.p2"></p>
       <p data-i18n="about.p3"></p>
 
-      <!-- Education -->
       <div class="about-education reveal">
         <h2 data-i18n="about.edu.label">Education</h2>
         <div class="edu-card">
@@ -120,14 +118,14 @@
   <!-- Graduation Project Featured -->
   <div class="project-featured reveal">
     <span class="project-featured-badge" data-i18n="projects.featured.badge">Graduation Project</span>
-    <a class="project-item project-item--featured" href="#">
+    <a class="project-item project-item--featured" data-project="graduation" href="#">
       <span class="project-num">✦</span>
       <div class="project-info">
-        <h3 data-i18n="projects.featured.title">Your Graduation Project Title</h3>
+        <h3 data-i18n="projects.featured.title">Graduation Project: Pathways in Bloom</h3>
         <p class="project-desc" data-i18n="projects.featured.desc">A short description of your project's core concept.</p>
         <div class="project-tags">
+          <span class="tag">Product Management</span>
           <span class="tag">UX Research</span>
-          <span class="tag">UI Design</span>
           <span class="tag">Figma</span>
         </div>
       </div>
@@ -139,7 +137,7 @@
   <div class="project-category reveal">
     <p class="project-category-label">UI/UX Concept</p>
     <div class="projects-list">
-      <a class="project-item reveal" href="#">
+      <a class="project-item reveal" data-project="uiux-01" href="#">
         <span class="project-num">01</span>
         <div class="project-info">
           <h3 data-i18n="projects.uiux.01.title">Finance App Redesign</h3>
@@ -150,7 +148,7 @@
         </div>
         <span class="project-arrow">↗</span>
       </a>
-      <a class="project-item reveal" href="#">
+      <a class="project-item reveal" data-project="uiux-02" href="#">
         <span class="project-num">02</span>
         <div class="project-info">
           <h3 data-i18n="projects.uiux.02.title">Medical Booking UX</h3>
@@ -168,7 +166,7 @@
   <div class="project-category reveal">
     <p class="project-category-label">Programming</p>
     <div class="projects-list">
-      <a class="project-item reveal" href="#">
+      <a class="project-item reveal" data-project="prog-01" href="#">
         <span class="project-num">01</span>
         <div class="project-info">
           <h3 data-i18n="projects.prog.01.title">SaaS Dashboard Design</h3>
@@ -186,7 +184,7 @@
   <div class="project-category reveal">
     <p class="project-category-label">Graphic Design</p>
     <div class="projects-list">
-      <a class="project-item reveal" href="#">
+      <a class="project-item reveal" data-project="graphic-01" href="#">
         <span class="project-num">01</span>
         <div class="project-info">
           <h3 data-i18n="projects.graphic.01.title">E-commerce Visual Design</h3>
@@ -199,6 +197,26 @@
       </a>
     </div>
   </div>
+
+  <!-- Photography -->
+  <div class="project-category reveal">
+    <p class="project-category-label">Photography</p>
+    <div class="projects-list">
+      <a class="project-item reveal" data-project="photo-01" href="#">
+        <span class="project-num">01</span>
+        <div class="project-info">
+          <h3 data-i18n="projects.photo.01.title">Photography</h3>
+          <div class="project-tags">
+            <span class="tag">Photography</span>
+            <span class="tag">Portrait</span>
+            <span class="tag">Editing</span>
+          </div>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+
 </section>
 
 <!-- SKILLS -->
@@ -282,8 +300,8 @@
       <h2 class="contact-cta" data-i18n="contact.cta"></h2>
       <div class="contact-links">
         <a href="mailto:sherry200493@gmail.com" class="contact-link">sherry200493@gmail.com</a>
-        <a href="#" class="contact-link">LinkedIn</a>
-        <a href="#" class="contact-link">Behance / Dribbble</a>
+        <a href="https://www.linkedin.com/in/sherry-liang-20920426b/" class="contact-link">LinkedIn</a>
+        <a href="https://www.facebook.com/liang.xuan.ling.626916" class="contact-link">Facebook</a>
       </div>
     </div>
 
@@ -321,6 +339,39 @@
   <span data-i18n="footer.left">© 2025 Sherry Liang. All rights reserved.</span>
   <span data-i18n="footer.right">Designed with intention · Built with care</span>
 </footer>
+
+<!-- PROJECT OVERLAY -->
+<div class="overlay" id="projectOverlay">
+  <div class="overlay-backdrop" id="overlayBackdrop"></div>
+  <div class="overlay-panel">
+    <button class="overlay-close" id="overlayClose">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <div class="overlay-content">
+      <p class="overlay-category" id="overlayCategory"></p>
+      <h2 class="overlay-title" id="overlayTitle"></h2>
+      <p class="overlay-desc" id="overlayDesc"></p>
+      <div class="overlay-tags" id="overlayTags"></div>
+      <div class="overlay-section">
+        <h4 class="overlay-section-label" id="overlayOverviewLabel">Overview</h4>
+        <p class="overlay-section-text" id="overlayOverview"></p>
+      </div>
+      <div class="overlay-section">
+        <h4 class="overlay-section-label" id="overlayRoleLabel">My Role</h4>
+        <p class="overlay-section-text" id="overlayRole"></p>
+      </div>
+      <div class="overlay-images" id="overlayImages"></div>
+      <a class="overlay-link" id="overlayLink" href="#" target="_blank">
+        <span id="overlayLinkText">View Full Project</span>
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
 
 <script src="main.js"></script>
 </body>
