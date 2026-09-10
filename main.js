@@ -212,7 +212,7 @@ const translations = {
     'projects.uiux.02.title': 'Medical Booking UX',
     'projects.uiux.03.title': 'HomeMate — a rental & roommate-matching app design',
     'projects.prog.01.title': 'Taiwanese Famous Beverage Promotion Campaign',
-    'projects.graphic.01.title': 'E-commerce Visual Design',
+    'projects.graphic.01.title': 'Cafe Logo Design',
     'projects.photo.01.title': 'Photography',
     'skills.label': 'Expertise',
     'skills.title': 'What I Do',
