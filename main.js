@@ -16,36 +16,50 @@ const projects = {
     desc: { en: 'Re-imagining traditional Taiwanese ironwork through tech-art to revitalize urban collective memories.', zh: '以科技藝術重新詮釋台灣傳統鐵窗花，在光影與互動間重塑城市歷史記憶。', ko: '기술 예술로 대만 전통 창살 무늬를 재해석하여 도시의 역사적 기억을 재구성하다.' },
     overview: {
       en: `
-        <p>這個專案是為了解決...</p>
+        <h2>Role </h2> 
+        <p>Project Manager</p>
     
-        <h5>Problem</h5>
-        <p>使用者面臨的問題是...</p>
+        <h2>Concept</h2>
+        <p>Iron window grilles (鐵窗花) are one of Taiwan's most ordinary yet resilient urban features — cold metal that has quietly guarded warm domestic life for decades. Each window and its shadow carries a trace of everyday living. Our team reimagined this vernacular craft through light, projection, and interaction, inviting visitors into the alleys ("阤陌") to witness the city's memory quietly bloom again.</p>
     
-        <img src="project-01-research.jpg" alt="Research process">
+        <h2>Experience Highlights</h2>
+        <p>Window Grille Drawing Station — visitors sketch their own grille pattern, turning passive viewing into hands-on making</p>
+        <p>Dynamic Streetscape Wall — a projected, responsive wall that reconstructs an old-town alley atmosphere</p>
+        <p>Semi-3D Projection House — a physical house structure layered with projection mapping, blending built form and digital image</p>
+
+        <h2>Approach</h2>
+        <p>The exhibition begins with a static timeline tracing the grilles' history, layered with text narration and NFC-triggered audio, then moves into interactive stations where visitors draw grille patterns and co-build the streetscape — shifting them from observers to participants in reviving this traditional craft.</p>
+        
+        <h2>Outcome</h2>
+        <p>Through digital media, the project sought to re-translate Taiwan's iron-grille aesthetic for a new generation — bridging the memory gap between old and new eras, and letting a fading craft bloom again in people's hearts.</p>
+
+        <h2>Wireframe</h2>
+        <img src="1-1.png" alt="Wireframe">
+        <img src="1-2.png" alt="Wireframe">
+        <img src="1-3.png" alt="Wireframe">
     
-        <h5>Process</h5>
-        <p>我們透過訪談了 10 位使用者，發現...</p>
-    
-        <img src="project-01-wireframe.jpg" alt="Wireframe">
-    
-        <h5>Outcome</h5>
-        <p>最終設計提升了 30% 的轉換率...</p>
       `,
       zh: `
-        <p>這個專案是為了解決...</p>
+        <h2>Role </h2> 
+        <p>專案負責人 PM</p>
     
-        <h5>Problem</h5>
-        <p>使用者面臨的問題是...</p>
+        <h2>Concept</h2>
+        <p>鐵窗花,是台灣街景裡最平凡卻最堅韌的風景。它們以冷冽之身,守護著幾十年來溫熱的人情與日常。一窗一影,都是生活的筆觸。我們團隊以鐵窗花為題,透過光影、投影與互動的手法重新詮釋這項傳統工藝,帶領觀眾走進阤陌之中,看見城市的記憶靜靜盛放。</p>
     
-        <img src="project-01-research.jpg" alt="Research process">
-    
-        <h5>Process</h5>
-        <p>我們透過訪談了 10 位使用者，發現...</p>
-    
-        <img src="project-01-wireframe.jpg" alt="Wireframe">
-    
-        <h5>Outcome</h5>
-        <p>最終設計提升了 30% 的轉換率...</p>
+        <h2>體驗特色</h2>
+        <p>窗花繪製體驗：觀者可在電腦上透過畫筆與鏡射等繪畫功能，隨心所欲打造對稱又具個人特色的窗花圖騰。</p>
+        <p>動態街景牆：繪製好的窗花將投射在老屋窗框上，觀者將在道地的台灣街景上看到自己獨一無二的創作。</p>
+        <p>半立體投影房屋：透過凸出的投影設計，觀者可近距離欣賞自己的窗花創作並拍照留念。</p>
+
+        <h2>執行方式</h2>
+        <p>展覽從靜態展區的時間軸出發,結合文字敘事與 NFC 聲音互動,帶領觀眾一窺鐵窗花在各個年代角落的足跡;接著透過繪製窗花、共築街景等互動體驗,讓觀眾從單純的參觀者,轉變為讓這份傳統之美重新綻放的參與者。</p>
+
+        <h2>成果與期許</h2>
+        <p>我們期待《阤陌・盛放》能透過數位媒介,將台灣傳統鐵窗花美學重新轉譯,承接起新舊時代的記憶斷層,並交融現代數位技術與傳統人文情懷,讓鐵窗花之美跨越時空的限制,再次於新時代與大眾的心底盛放。</p>
+
+        <img src="1-1.png" alt="Wireframe">
+        <img src="1-2.png" alt="Wireframe">
+        <img src="1-3.png" alt="Wireframe">
       `,
       
       ko: `
@@ -68,7 +82,7 @@ const projects = {
     },
     role: { en: 'Project Manager (Finance & Logistics), UX Researcher, Storytelling Designer ', zh: '專案管理、總務、UX 研究員、故事牆設計', ko: '프로젝트 매니저 (총무), UX 리서처, 스토리텔링 디자이너' },
     tags: ['PM','GA','UX Research', 'UI Design', 'Figma'],
-    link: '#',
+    link: 'https://nccudct17th.com/',
     images: [],
   },
   'uiux-01': {

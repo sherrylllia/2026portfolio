@@ -726,6 +726,15 @@ footer {
   border-radius: 6px;
   border: 1px solid var(--line);
 }
+.overlay-section-text img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  margin: 1.5rem 0;
+}
 .overlay-link {
   display: inline-flex;
   align-items: center;
