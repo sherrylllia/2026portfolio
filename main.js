@@ -37,6 +37,11 @@ const projects = {
         <img src="1-1.png" alt="Wireframe">
         <img src="1-2.png" alt="Wireframe">
         <img src="1-3.png" alt="Wireframe">
+
+        <h2>Exhibition Photos</h2>
+        <img src="1-4.jpg" alt="Exhibition Photos">
+        <img src="1-5.jpg" alt="Exhibition Photos">
+        <img src="1-6.jpg" alt="Exhibition Photos">
     
       `,
       zh: `
@@ -57,9 +62,15 @@ const projects = {
         <h2>成果與期許</h2>
         <p>我們期待《阤陌・盛放》能透過數位媒介,將台灣傳統鐵窗花美學重新轉譯,承接起新舊時代的記憶斷層,並交融現代數位技術與傳統人文情懷,讓鐵窗花之美跨越時空的限制,再次於新時代與大眾的心底盛放。</p>
 
+        <h2>Wireframe</h2>
         <img src="1-1.png" alt="Wireframe">
         <img src="1-2.png" alt="Wireframe">
         <img src="1-3.png" alt="Wireframe">
+
+        <h2>現場照片</h2>
+        <img src="1-4.jpg" alt="Exhibition Photos">
+        <img src="1-5.jpg" alt="Exhibition Photos">
+        <img src="1-6.jpg" alt="Exhibition Photos">
       `,
       
       ko: `
@@ -86,13 +97,80 @@ const projects = {
     images: [],
   },
   'uiux-01': {
-    category: { en: 'UI/UX Concept', zh: 'UI/UX 概念', ko: 'UI/UX 컨셉' },
-    title: { en: 'Finance App Redesign', zh: '金融 App 重新設計', ko: '금융 앱 리디자인' },
-    desc: { en: 'Redesigning the core experience of a financial app.', zh: '重新設計金融應用程式的核心體驗。', ko: '금융 앱의 핵심 경험을 재설계했습니다.' },
-    overview: { en: 'Describe the project background, goals, and results here.', zh: '在這裡描述專案背景、目標與成果。', ko: '프로젝트 배경, 목표, 결과를 여기에 작성하세요.' },
-    role: { en: 'UI/UX Designer', zh: 'UI/UX 設計師', ko: 'UI/UX 디자이너' },
-    tags: ['Mobile', 'Design System'],
-    link: '#',
+    category: { en: 'Internship', zh: '實習經歷', ko: '인턴십' },
+    title: { en: 'Hua Nan Bank — Banking Tutorial Website', zh: '華南銀行 行動銀行・網路銀行操作教學網站', ko: '화난은행 - 뱅킹 튜토리얼 웹사이트' },
+    time: { en: 'July 2025 - August 2025', zh: '2025 年 7 月 - 2025 年 8 月', ko: '2025년 7월 - 2025년 8월' },
+    desc: {
+      en: 'A step-by-step tutorial website guiding customers through three core functions of Hua Nan Bank\'s mobile and online banking.',
+      zh: '一個操作教學網站，帶領使用者逐步完成華南銀行行動銀行與網路銀行的三項核心功能。',
+      ko: '화난은행 모바일 및 온라인 뱅킹의 핵심 기능 3가지를 안내하는 단계별 튜토리얼 웹사이트입니다.'
+    },
+    overview: {
+      en: `
+        <h2>Role</h2>
+        <p>FinTech Department, UI Project Intern</p>
+
+        <h2>Background</h2>
+        <p>During my internship at Hua Nan Bank's FinTech department, I noticed customers frequently contacted support with basic how-to questions about mobile and online banking — account opening, loan applications, and digital account services. There was no self-serve resource walking them through these flows.</p>
+
+        <h2>My Role</h2>
+        <p>Mapped out the existing banking flows across the mobile app and online banking platform, identifying the steps where users commonly got stuck.</p>
+        <p>Designed the step-by-step UI and page structure in Figma, breaking each flow into clear, numbered instructions.</p>
+        <p>Built and deployed the interactive tutorial website using Weba.</p>
+
+        <h2>Outcome</h2>
+        <p>Delivered a self-serve tutorial site covering all three core banking functions, giving both new and existing customers a clear reference for completing common banking tasks without contacting customer service.</p>
+
+        <h2>Link</h2>
+        <a href="https://www.hncb.com.tw/wps/portal/HNCB/">https://www.hncb.com.tw/wps/portal/HNCB/</a>
+
+        <h2>Wireframe</h2>
+        <img src="2-1.png" alt="Wireframe">
+        <img src="2-2.png" alt="Wireframe">
+
+
+        `,
+      zh: `
+        <h2>角色</h2>
+        <p>金融科技部 UI 專案實習人員</p>
+
+        <h2>專案背景</h2>
+        <p>在華南銀行金融科技部實習期間，我發現客戶經常因為不熟悉行動銀行與網路銀行的操作流程（線上開戶、貸款申請、數位帳戶服務等）而聯繫客服，但當時並沒有一個自助式的教學資源可以引導使用者。</p>
+
+        <h2>我的角色</h2>
+        <p>梳理行動銀行與網路銀行既有的操作流程，找出使用者最容易卡關的步驟。</p>
+        <p>在 Figma 上規劃步驟式 UI 介面與頁面結構，將每個流程拆解成清楚、編號的操作說明。</p>
+        <p>使用 Weba 建置並上線這個互動式教學網站。</p>
+
+        <h2>成果</h2>
+        <p>完成一個涵蓋三項核心銀行功能的自助教學網站，讓新舊客戶都能清楚參考、自行完成常見的銀行業務，不需另外聯繫客服。</p>
+
+        <h2>Link</h2>
+        <a href="https://www.hncb.com.tw/wps/portal/HNCB/">https://www.hncb.com.tw/wps/portal/HNCB/</a>
+
+        <h2>Wireframe</h2>
+        <img src="2-1.png" alt="Wireframe">
+        <img src="2-2.png" alt="Wireframe">
+      `,
+      ko: `
+        <h2>역할</h2>
+        <p>금융 기술 부서, UI 프로젝트 인턴</p>
+
+        <h2>배경</h2>
+        <p>화난은행 금융 기술 부서에서 인턴십을 하는 동안, 고객들이 모바일 및 온라인 뱅킹의 기본적인 이용 방법(계좌 개설, 대출 신청, 디지털 계좌 서비스 등)에 대해 자주 고객센터에 문의한다는 점을 발견했습니다. 이를 스스로 해결할 수 있는 안내 자료가 없었습니다.</p>
+
+        <h2>담당 업무</h2>
+        <p>모바일 앱과 온라인 뱅킹의 기존 흐름을 정리하고, 사용자가 자주 막히는 단계를 파악했습니다.</p>
+        <p>Figma에서 단계별 UI와 페이지 구조를 설계하여, 각 흐름을 명확하고 번호가 매겨진 안내로 나누었습니다.</p>
+        <p>Weba를 사용해 인터랙티브 튜토리얼 웹사이트를 제작하고 배포했습니다.</p>
+
+        <h2>성과</h2>
+        <p>세 가지 핵심 뱅킹 기능을 모두 다루는 셀프 서비스 튜토리얼 사이트를 완성하여, 신규 및 기존 고객 모두가 고객센터 문의 없이 주요 은행 업무를 처리할 수 있도록 했습니다.</p>
+      `,
+    },
+    role: { en: 'UI/UX Designer, Content Designer', zh: 'UI/UX 設計師、內容設計', ko: 'UI/UX 디자이너, 콘텐츠 디자이너' },
+    tags: ['FinTech', 'Internship', 'Figma', 'Weba'],
+    link: 'https://www.huana.com.tw/tw/index.html',
     images: [],
   },
   'uiux-02': {
