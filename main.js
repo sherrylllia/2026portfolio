@@ -183,6 +183,75 @@ const projects = {
     link: '#',
     images: [],
   },
+  'uiux-03': {
+    category: { en: 'UI/UX Concept', zh: 'UI/UX 概念', ko: 'UI/UX 컨셉' },
+    title: { en: 'HomeMate — a rental & roommate-matching app design', zh: '「居然有你」租屋與找室友 App 服務設計', ko: 'HomeMate - 임대 및 룸메이트 매칭 앱 디자인' },
+    desc: {
+      en: 'A rental & roommate-matching app helping young renters find both their ideal home and the right roommate in one place.',
+      zh: '一款租屋與找室友的服務型 App，幫助年輕租屋族一站解決找房與找室友的需求。',
+      ko: '이상적인 집과 맞는 룸메이트를 한 곳에서 찾을 수 있도록 돕는 임대 및 룸메이트 매칭 앱입니다.'
+    },
+    overview: {
+      en: `
+        <h2>Background</h2>
+        <p>For young renters, co-living is often the balance between rent and quality of life. We designed this app to address the pain points of both finding a rental and finding a compatible roommate in one connected experience.</p>
+
+        <h2>Design Focus</h2>
+        <p><strong>Finding a Rental</strong></p>
+        <p>Map-based property search</p>
+        <p>Filtering by conditions</p>
+        <p>Reviews and communication system</p>
+        <p><strong>Finding a Roommate</strong></p>
+        <p>Roommate-matching design</p>
+        <p>Personality-test-based matching results</p>
+        <p>Custom filtering by preferences</p>
+        <p>Reviews and communication system</p>
+
+        <h2>Tools</h2>
+        <p>Figma</p>
+      `,
+      zh: `
+        <h2>專案背景</h2>
+        <p>「你的理想家與最佳室友，一站搞定！」我們發現對於年輕人來說，「合租」是租金與生活品質的平衡，所以嘗試設計出這類型的服務 App 來解決現有的問題。</p>
+
+        <h2>設計重點</h2>
+        <p><strong>一、找租屋</strong></p>
+        <p>地圖找房功能設計</p>
+        <p>條件篩選功能</p>
+        <p>評價、交流系統</p>
+        <p><strong>二、找室友</strong></p>
+        <p>篩選室友方式設計</p>
+        <p>透過心理測驗推送結果</p>
+        <p>自行設定條件篩選</p>
+        <p>評價、交流系統</p>
+
+        <h2>使用工具</h2>
+        <p>Figma</p>
+      `,
+      ko: `
+        <h2>배경</h2>
+        <p>젊은 세입자들에게 함께 사는 것은 임대료와 삶의 질 사이의 균형을 의미하는 경우가 많습니다. 저희는 집을 찾는 것과 맞는 룸메이트를 찾는 것을 하나의 경험으로 연결하여 이 앱을 디자인했습니다.</p>
+
+        <h2>디자인 포인트</h2>
+        <p><strong>집 찾기</strong></p>
+        <p>지도 기반 매물 검색</p>
+        <p>조건별 필터링</p>
+        <p>리뷰 및 소통 시스템</p>
+        <p><strong>룸메이트 찾기</strong></p>
+        <p>룸메이트 매칭 디자인</p>
+        <p>성격 테스트 기반 매칭 결과</p>
+        <p>선호도별 맞춤 필터링</p>
+        <p>리뷰 및 소통 시스템</p>
+
+        <h2>도구</h2>
+        <p>Figma</p>
+      `,
+    },
+    role: { en: 'UI/UX Designer', zh: 'UI/UX 設計師', ko: 'UI/UX 디자이너' },
+    tags: ['Rental', 'Roommate Matching', 'Design System'],
+    link: '#',
+    images: [],
+  },
   'prog-01': {
     category: { en: 'Programming', zh: '程式開發', ko: '프로그래밍' },
     title: { en: 'SaaS Dashboard Design', zh: 'SaaS Dashboard 介面設計', ko: 'SaaS 대시보드 디자인' },
