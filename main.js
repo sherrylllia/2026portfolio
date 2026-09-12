@@ -74,20 +74,32 @@ const projects = {
       `,
       
       ko: `
-      <p>這個專案是為了解決...</p>
-  
-      <h5>Problem</h5>
-      <p>使用者面臨的問題是...</p>
-  
-      <img src="project-01-research.jpg" alt="Research process">
-  
-      <h5>Process</h5>
-      <p>我們透過訪談了 10 位使用者，發現...</p>
-  
-      <img src="project-01-wireframe.jpg" alt="Wireframe">
-  
-      <h5>Outcome</h5>
-      <p>最終設計提升了 30% 的轉換率...</p>
+      <h2>역할</h2>
+      <p>프로젝트 매니저 (PM)</p>
+
+      <h2>콘셉트</h2>
+      <p>철제 창살 무늬(鐵窗花)는 대만의 거리 풍경 중 가장 평범하면서도 가장 단단한 풍경입니다. 차가운 금속이지만 수십 년간 따뜻한 일상을 지켜왔습니다. 창문 하나, 그림자 하나에도 삶의 흔적이 담겨 있습니다. 저희 팀은 이 전통 공예를 빛과 영상, 인터랙션을 통해 새롭게 해석하여, 관람객을 골목("阤陌") 속으로 초대해 도시의 기억이 조용히 다시 피어나는 순간을 목격하게 했습니다.</p>
+
+      <h2>체험 포인트</h2>
+      <p>창살 무늬 그리기 체험 — 관람객이 직접 자신만의 창살 패턴을 그리며, 단순한 관람에서 직접 만드는 경험으로 전환</p>
+      <p>다이나믹 거리 풍경 벽 — 옛 골목의 분위기를 재현하는 프로젝션 기반의 반응형 벽</p>
+      <p>반입체 프로젝션 하우스 — 실제 건물 구조에 프로젝션 매핑을 더해 실물과 디지털 이미지를 결합</p>
+
+      <h2>진행 방식</h2>
+      <p>전시는 정적 전시 구역에서 시간의 흐름을 따라가는 것으로 시작하며, 텍스트 내레이션과 NFC 사운드 인터랙션을 결합해 관람객이 각 시대 속 창살 무늬의 흔적을 살펴보도록 합니다. 이어서 창살 무늬 그리기와 거리 풍경 함께 만들기 등의 체험을 통해, 관람객을 단순한 관찰자에서 이 전통의 아름다움을 다시 피어나게 하는 참여자로 전환시킵니다.</p>
+
+      <h2>성과</h2>
+      <p>디지털 미디어를 통해 대만 전통 철제 창살 무늬의 미학을 새로운 세대를 위해 재해석하고자 했습니다 — 신구 시대 사이의 기억 단절을 잇고, 현대 디지털 기술과 전통 인문 감성을 융합하여, 창살 무늬의 아름다움이 시공간의 제약을 넘어 새로운 시대와 대중의 마음속에서 다시 피어나기를 바랍니다.</p>
+
+      <h2>와이어프레임</h2>
+      <img src="1-1.png" alt="Wireframe">
+      <img src="1-2.png" alt="Wireframe">
+      <img src="1-3.png" alt="Wireframe">
+
+      <h2>현장 사진</h2>
+      <img src="1-4.jpg" alt="Exhibition Photos">
+      <img src="1-5.jpg" alt="Exhibition Photos">
+      <img src="1-6.jpg" alt="Exhibition Photos">
     `,
     
     },
@@ -127,8 +139,7 @@ const projects = {
         <h2>Wireframe</h2>
         <img src="2-1.png" alt="Wireframe">
         <img src="2-2.png" alt="Wireframe">
-
-
+        
         `,
       zh: `
         <h2>角色</h2>
@@ -189,7 +200,7 @@ const projects = {
     desc: {
       en: 'A rental & roommate-matching app helping young renters find both their ideal home and the right roommate in one place.',
       zh: '一款租屋與找室友的服務型 App，幫助年輕租屋族一站解決找房與找室友的需求。',
-      ko: '이상적인 집과 맞는 룸메이트를 한 곳에서 찾을 수 있도록 돕는 임대 및 룸메이트 매칭 앱입니다.'
+      ko: '이상적인 집과 맞는 룸메이트를 한 곳에서 찾을 수 있도록 돕는 임대 및 룸메이트 매칭 앱입니다.',
     },
     overview: {
       en: `
@@ -249,8 +260,8 @@ const projects = {
     },
     role: { en: 'UI/UX Designer', zh: 'UI/UX 設計師', ko: 'UI/UX 디자이너' },
     tags: ['Rental', 'Roommate Matching', 'Design System'],
-    link: '#',
-    images: [],
+    link: 'https://reurl.cc/46EmV3',
+    images: ['3-1.png'],
   },
   'prog-01': {
     category: { en: 'Programming', zh: '程式開發', ko: '프로그래밍' },
