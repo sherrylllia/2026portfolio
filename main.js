@@ -216,7 +216,9 @@ const projects = {
 
         <h2>Outcome</h2>
         <p>Delivered a redesigned information architecture, an improved prototype addressing four key usability barriers, and a cohesive visual identity across the Find & Filter Attractions, Collect Attractions, and Plan a Trip flows.</p>
-      `,
+        
+        <img src="6-1.png" alt="Poster">
+        `,
       zh: `
         <h2>專案背景</h2>
         <p>「現在玩台北」是一款為來台旅客打造的綜合性旅遊指南 App。我們團隊針對測試中發現的可用性問題進行重新設計，並強化 App 的視覺識別與品牌角色。</p>
@@ -240,6 +242,8 @@ const projects = {
 
         <h2>成果</h2>
         <p>完成重新規劃的資訊架構、針對四大可用性障礙優化的原型，以及貫穿「找景點與篩選」、「收藏景點」、「規劃行程」三大流程的一致視覺識別。</p>
+
+        <img src="6-1.png" alt="Poster">
       `,
       ko: `
         <h2>배경</h2>
@@ -264,11 +268,13 @@ const projects = {
 
         <h2>성과</h2>
         <p>재구성된 정보 구조, 네 가지 핵심 사용성 문제를 해결한 개선된 프로토타입, 그리고 명소 찾기 및 필터링, 명소 저장, 일정 계획이라는 세 가지 흐름 전반에 걸친 일관된 비주얼 아이덴티티를 완성했습니다.</p>
+
+        <img src="6-1.png" alt="Poster">
       `,
     },
     role: { en: 'UX Researcher, Wireframing, Information Architecture', zh: 'UX 研究員、線框圖繪製、資訊架構規劃', ko: 'UX 리서처, 와이어프레임, 정보 구조 설계' },
     tags: ['Travel', 'Usability Testing', 'Design System'],
-    link: '#',
+    link: 'https://www.figma.com/proto/52CwQJUOuSwyIgXK0CRUlD/113-1%E4%BA%BA%E6%A9%9F%E4%BB%8B%E9%9D%A2%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%B5%84?page-id=158:3625&node-id=490-10426&p=f&viewport=-19600,-6798,0.71&t=B0fQyMiuZCdV1Kgf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=490:10426&show-proto-sidebar=1',
     images: [],
   },
   'uiux-03': {
@@ -373,6 +379,8 @@ const projects = {
         <p>STP Analysis</p>
         <p>Visual Design</p>
         <p>Campaign Ideation</p>
+
+        <img src="4-1.png" alt="Advertising & PR">
       `,
       zh: `
         <h2>專案背景</h2>
@@ -388,6 +396,8 @@ const projects = {
         <p>STP 分析</p>
         <p>視覺設計</p>
         <p>活動發想</p>
+
+        <img src="4-1.png" alt="Advertising & PR">
       `,
       ko: `
         <h2>배경</h2>
@@ -403,11 +413,13 @@ const projects = {
         <p>STP 분석</p>
         <p>비주얼 디자인</p>
         <p>캠페인 기획</p>
+
+        <img src="4-1.png" alt="Advertising & PR">
       `,
     },
     role: { en: 'STP Analysis, Visual Design, Campaign Ideation', zh: 'STP 分析、視覺設計、活動發想', ko: 'STP 분석, 비주얼 디자인, 캠페인 기획' },
     tags: ['Advertising', 'PR', 'Marketing Strategy'],
-    link: '#',
+    link: 'https://drive.google.com/file/d/1H59ItMNxAhWkqXyoPBl_VXmRoF-oAgOS/view?usp=sharing',
     images: [],
   },
   'adv-02': {
@@ -439,7 +451,9 @@ const projects = {
 
         <h2>Expected Outcomes</h2>
         <p>Projected a 15%+ increase in ride orders, 5%+ growth in lifestyle service adoption, and stronger owned-media community engagement and media relationships.</p>
-      `,
+        
+        <img src="5-1.png" alt="Advertising & PR">
+        `,
       zh: `
         <h2>專案背景</h2>
         <p>55688 深耕台灣市場二十餘年，擁有超過 720 萬會員，是台灣最具規模的計程車服務品牌。近年集團轉型為生活服務媒合平台，整合多元計程車、搬家、清潔等服務，主打「Make your life easier」的品牌定位。然而透過質性訪談發現，年輕世代對品牌的印象仍停留在傳統小黃計程車，普遍不知道 55688 APP 已整合多元生活服務。</p>
@@ -460,6 +474,8 @@ const projects = {
 
         <h2>預期效益</h2>
         <p>預估叫車訂單量提升 15% 以上、生活服務使用率成長 5% 以上，並強化品牌自有社群經營與媒體關係。</p>
+
+        <img src="5-1.png" alt="Advertising & PR">
       `,
       ko: `
         <h2>배경</h2>
@@ -481,11 +497,13 @@ const projects = {
 
         <h2>기대 효과</h2>
         <p>탑승 주문량 15% 이상 증가, 생활 서비스 이용률 5% 이상 성장, 자체 소셜 커뮤니티 운영 및 미디어 관계 강화를 예상합니다.</p>
+
+        <img src="5-1.png" alt="Advertising & PR">
       `,
     },
     role: { en: 'Team Collaboration — Research, Analysis, Campaign Ideation', zh: '團隊共同合作 — 研究、分析、活動發想', ko: '팀 협업 - 리서치, 분석, 캠페인 기획' },
     tags: ['Advertising', 'PR', 'Marketing Strategy'],
-    link: '#',
+    link: 'https://drive.google.com/file/d/1M9cGyNcv0-jCQ2o7a_x_umL1Bct5HlNa/view?usp=drive_link',
     images: [],
   },
   'adv-02': {
