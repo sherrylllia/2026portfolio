@@ -186,11 +186,88 @@ const projects = {
   },
   'uiux-02': {
     category: { en: 'UI/UX Concept', zh: 'UI/UX 概念', ko: 'UI/UX 컨셉' },
-    title: { en: 'Medical Booking UX', zh: '醫療預約系統 UX', ko: '의료 예약 시스템 UX' },
-    desc: { en: 'Improving accessibility in a medical appointment system.', zh: '提升醫療預約系統的無障礙體驗。', ko: '의료 예약 시스템의 접근성을 개선했습니다.' },
-    overview: { en: 'Describe the project background, goals, and results here.', zh: '在這裡描述專案背景、目標與成果。', ko: '프로젝트 배경, 목표, 결과를 여기에 작성하세요.' },
-    role: { en: 'UX Researcher, UI Designer', zh: 'UX 研究員、UI 設計師', ko: 'UX 연구원, UI 디자이너' },
-    tags: ['Healthcare', 'Accessibility'],
+    title: { en: 'Undiscovered Taipei — App Redesign', zh: '「現在玩台北」App Redesign', ko: '언디스커버드 타이베이 - 앱 리디자인' },
+    desc: {
+      en: 'A comprehensive travel guide app redesign that helps tourists discover, filter, and plan itineraries around Taipei on the go.',
+      zh: '一款台北旅遊指南 App 的重新設計，幫助旅客隨時隨地探索景點、篩選條件並規劃行程。',
+      ko: '타이베이를 여행하는 관광객이 명소를 탐색하고, 조건을 필터링하고, 여정을 계획할 수 있도록 돕는 종합 여행 가이드 앱 리디자인입니다.',
+    },
+    overview: {
+      en: `
+        <h2>Background</h2>
+        <p>Undiscovered Taipei (現在玩台北) is a comprehensive travel guide app designed for tourists exploring Taipei. Our team conducted a redesign to address usability issues surfaced through testing, and to strengthen the app's visual identity and brand character.</p>
+
+        <h2>Target Audience</h2>
+        <p>Deep-exploration tourists — seek unique cultural and culinary experiences</p>
+        <p>Efficiency-focused users — want fast, easy access to travel info</p>
+        <p>Itinerary planners — value comprehensive and detailed travel information</p>
+
+        <h2>Testing Results & Solutions</h2>
+        <p><strong>Barrier 1:</strong> Users couldn't link the "Tourism" tab to the attractions page. <strong>Solution:</strong> Surfaced tourism features on the homepage and renamed the tab to "Sightseeing," then validated with A/B testing.</p>
+        <p><strong>Barrier 2:</strong> Users assumed all filters had to be filled in before viewing results. <strong>Solution:</strong> Changed "expand options" to "view more" and added expand/collapse icons to reduce mental load.</p>
+        <p><strong>Barrier 3:</strong> Users wanted a map of nearby attractions to plan itineraries more easily. <strong>Solution:</strong> Added a "Nearby Attractions Map" on the Select Locations page and an "Itinerary Map" on the Plan Itinerary page.</p>
+        <p><strong>Barrier 4:</strong> Users feared losing their selected attractions when choosing food. <strong>Solution:</strong> Displayed the number of selected locations on the "Add to Itinerary" button to build user confidence.</p>
+
+        <h2>Visual Design</h2>
+        <p>Defined a primary and secondary color scheme, selected Taipei Sans TC as the typeface, and adopted an illustrated visual style throughout the app.</p>
+
+        <h2>Brand Character</h2>
+        <p>Created "Li Zhang Bo" (里長伯), a guide character embodying three traits: considerate & understanding, reliable & up-to-date, and friendly & emotionally connected — giving the app a warm, local voice.</p>
+
+        <h2>Outcome</h2>
+        <p>Delivered a redesigned information architecture, an improved prototype addressing four key usability barriers, and a cohesive visual identity across the Find & Filter Attractions, Collect Attractions, and Plan a Trip flows.</p>
+      `,
+      zh: `
+        <h2>專案背景</h2>
+        <p>「現在玩台北」是一款為來台旅客打造的綜合性旅遊指南 App。我們團隊針對測試中發現的可用性問題進行重新設計，並強化 App 的視覺識別與品牌角色。</p>
+
+        <h2>目標受眾</h2>
+        <p>深度探索型旅客：追求獨特的文化與美食體驗</p>
+        <p>效率導向使用者：希望快速、輕鬆取得旅遊資訊</p>
+        <p>行程規劃者：重視完整且詳細的旅遊資訊</p>
+
+        <h2>測試結果與解法</h2>
+        <p><strong>障礙一：</strong>使用者無法將「旅遊」分頁與景點頁面聯想在一起。<strong>解法：</strong>在首頁呈現旅遊功能，並將分頁改名為「觀光」，再透過 A/B 測試驗證。</p>
+        <p><strong>障礙二：</strong>使用者誤以為所有篩選條件都必須填寫才能查看結果。<strong>解法：</strong>將「展開選項」改為「查看更多」，並加上展開/收合圖示以降低認知負擔。</p>
+        <p><strong>障礙三：</strong>使用者希望能看到鄰近景點地圖，方便規劃行程。<strong>解法：</strong>在「選擇地點」頁面加上「鄰近景點地圖」、在「規劃行程」頁面加上「行程地圖」。</p>
+        <p><strong>障礙四：</strong>使用者擔心在選擇美食時會遺失已選的景點。<strong>解法：</strong>在「加入行程」按鈕上顯示已選地點數量，增加使用者信心。</p>
+
+        <h2>視覺設計</h2>
+        <p>制定主色與輔色配色方案，選用台北黑體（Taipei Sans TC）作為字體，並採用插畫風格貫穿整體視覺。</p>
+
+        <h2>品牌角色</h2>
+        <p>設計「里長伯」作為 App 的引導角色，具備三項特質：體貼與理解、可靠與即時、親切與情感連結，賦予 App 溫暖且在地的語氣。</p>
+
+        <h2>成果</h2>
+        <p>完成重新規劃的資訊架構、針對四大可用性障礙優化的原型，以及貫穿「找景點與篩選」、「收藏景點」、「規劃行程」三大流程的一致視覺識別。</p>
+      `,
+      ko: `
+        <h2>배경</h2>
+        <p>언디스커버드 타이베이(現在玩台北)는 타이베이를 여행하는 관광객을 위한 종합 여행 가이드 앱입니다. 저희 팀은 테스트를 통해 발견된 사용성 문제를 해결하고, 앱의 비주얼 아이덴티티와 브랜드 캐릭터를 강화하기 위해 리디자인을 진행했습니다.</p>
+
+        <h2>타겟 사용자</h2>
+        <p>심층 탐방형 여행객 — 독특한 문화 및 미식 경험을 추구</p>
+        <p>효율 중심 사용자 — 빠르고 쉬운 여행 정보 접근을 원함</p>
+        <p>일정 계획자 — 포괄적이고 상세한 여행 정보를 중시</p>
+
+        <h2>테스트 결과 및 해결책</h2>
+        <p><strong>장벽 1:</strong> 사용자가 "관광" 탭과 명소 페이지를 연결하지 못함. <strong>해결책:</strong> 홈페이지에 관광 기능을 노출하고 탭 이름을 "구경하기"로 변경한 후 A/B 테스트로 검증.</p>
+        <p><strong>장벽 2:</strong> 사용자가 결과를 보기 전에 모든 필터를 채워야 한다고 오해. <strong>해결책:</strong> "옵션 펼치기"를 "더 보기"로 변경하고 펼침/접힘 아이콘을 추가해 인지 부담을 줄임.</p>
+        <p><strong>장벽 3:</strong> 사용자가 일정을 쉽게 계획할 수 있도록 주변 명소 지도를 원함. <strong>해결책:</strong> "장소 선택" 페이지에 "주변 명소 지도"를, "일정 계획" 페이지에 "일정 지도"를 추가.</p>
+        <p><strong>장벽 4:</strong> 사용자가 음식을 고를 때 선택한 명소를 잃을까 봐 걱정. <strong>해결책:</strong> "일정에 추가" 버튼에 선택한 장소 수를 표시해 사용자 신뢰도를 높임.</p>
+
+        <h2>비주얼 디자인</h2>
+        <p>주 색상 및 보조 색상 팔레트를 정하고, 서체는 타이베이 산스 TC(Taipei Sans TC)를 선택했으며, 전체적으로 일러스트 스타일을 적용했습니다.</p>
+
+        <h2>브랜드 캐릭터</h2>
+        <p>앱의 안내 캐릭터인 "리장보"(里長伯)를 만들었으며, 배려심 있고 이해심 많음, 신뢰할 수 있고 최신 정보를 제공함, 친근하고 정서적으로 연결됨이라는 세 가지 특성을 담아 앱에 따뜻하고 지역색 있는 톤을 부여했습니다.</p>
+
+        <h2>성과</h2>
+        <p>재구성된 정보 구조, 네 가지 핵심 사용성 문제를 해결한 개선된 프로토타입, 그리고 명소 찾기 및 필터링, 명소 저장, 일정 계획이라는 세 가지 흐름 전반에 걸친 일관된 비주얼 아이덴티티를 완성했습니다.</p>
+      `,
+    },
+    role: { en: 'UX Researcher, Wireframing, Information Architecture', zh: 'UX 研究員、線框圖繪製、資訊架構規劃', ko: 'UX 리서처, 와이어프레임, 정보 구조 설계' },
+    tags: ['Travel', 'Usability Testing', 'Design System'],
     link: '#',
     images: [],
   },
@@ -263,16 +340,6 @@ const projects = {
     link: 'https://reurl.cc/46EmV3',
     images: ['3-1.png'],
   },
-  'prog-01': {
-    category: { en: 'Programming', zh: '程式開發', ko: '프로그래밍' },
-    title: { en: 'SaaS Dashboard Design', zh: 'SaaS Dashboard 介面設計', ko: 'SaaS 대시보드 디자인' },
-    desc: { en: 'A data-rich dashboard for a SaaS platform.', zh: '為 SaaS 平台設計的資料視覺化儀表板。', ko: 'SaaS 플랫폼을 위한 데이터 대시보드.' },
-    overview: { en: 'Describe the project background, goals, and results here.', zh: '在這裡描述專案背景、目標與成果。', ko: '프로젝트 배경, 목표, 결과를 여기에 작성하세요.' },
-    role: { en: 'UI Designer, Front-end Developer', zh: 'UI 設計師、前端開發', ko: 'UI 디자이너, 프론트엔드 개발' },
-    tags: ['React', 'Data Viz'],
-    link: '#',
-    images: [],
-  },
   'graphic-01': {
     category: { en: 'Graphic Design', zh: '平面設計', ko: '그래픽 디자인' },
     title: { en: 'E-commerce Visual Design', zh: '電商平台視覺設計', ko: 'E-커머스 비주얼 디자인' },
@@ -280,6 +347,294 @@ const projects = {
     overview: { en: 'Describe the project background, goals, and results here.', zh: '在這裡描述專案背景、目標與成果。', ko: '프로젝트 배경, 목표, 결과를 여기에 작성하세요.' },
     role: { en: 'Graphic Designer', zh: '平面設計師', ko: '그래픽 디자이너' },
     tags: ['Branding', 'Visual'],
+    link: '#',
+    images: [],
+  },
+  'adv-01': {
+    category: { en: 'Advertising & PR', zh: '公關廣告', ko: '광고 및 PR' },
+    title: { en: 'Beverage Brand Revival — Marketing Proposal', zh: '經典氣泡飲料品牌再造 — 行銷企劃提案', ko: '전통 탄산음료 브랜드 리뉴얼 - 마케팅 제안' },
+    desc: {
+      en: 'A marketing campaign proposal to rejuvenate a legacy Taiwanese soda brand and re-engage younger consumers.',
+      zh: '一份行銷企劃提案，為經典台灣氣泡飲料品牌注入活力，重新吸引年輕消費者。',
+      ko: '전통 대만 탄산음료 브랜드에 활력을 불어넣고 젊은 소비자를 다시 사로잡기 위한 마케팅 캠페인 제안입니다.',
+    },
+    overview: {
+      en: `
+        <h2>Background</h2>
+        <p>The client is a well-known Taiwanese carbonated soft drink brand that first introduced American-style root beer to Taiwan and localized it into an iconic national drink. Rising in the 1950s alongside Taiwan's economic growth, the brand became deeply embedded in local culture — even inspiring urban legends about its supposed health benefits. In recent years, however, sales have plateaued as consumer preferences shift and Gen Z gravitates toward newer trends.</p>
+
+        <h2>Challenge</h2>
+        <p>How might we rejuvenate a legacy brand's image and re-capture the attention of younger consumers, without losing the nostalgic identity that built its reputation?</p>
+
+        <h2>Approach</h2>
+        <p>Proposed a NT$10 million marketing campaign running July–September 2025 (a two-month window), targeting consumers aged 20–29. The proposal outlined a set of integrated marketing activities designed to reposition the brand as relevant and appealing to a younger audience while preserving its nostalgic brand equity.</p>
+
+        <h2>My Role</h2>
+        <p>STP Analysis</p>
+        <p>Visual Design</p>
+        <p>Campaign Ideation</p>
+      `,
+      zh: `
+        <h2>專案背景</h2>
+        <p>本案客戶為台灣知名的碳酸飲料品牌,最初將美國流行的 Root Beer 引進台灣並進行在地化改良,興起於 1950 年代,伴隨台灣經濟發展成長,成為家喻戶曉的經典品牌,甚至衍生出許多獨特的都市傳說(如加鹽治感冒、中暑等)。然而近年來,隨著消費者口味轉變、Z 世代追求新潮流,品牌在碳酸飲料市場的銷售表現逐漸停滯。</p>
+
+        <h2>面臨的課題</h2>
+        <p>如何在保留品牌懷舊價值的同時,重新讓年輕世代對這個經典品牌產生興趣與好感?</p>
+
+        <h2>企劃方向</h2>
+        <p>提案運用 1000 萬預算,規劃 2025 年 7 至 9 月(為期兩個月)的整合行銷活動,鎖定 20～29 歲年輕族群為主要溝通對象,設計一系列行銷活動,提升品牌在年輕消費者心中的心佔率。</p>
+
+        <h2>我的角色</h2>
+        <p>STP 分析</p>
+        <p>視覺設計</p>
+        <p>活動發想</p>
+      `,
+      ko: `
+        <h2>배경</h2>
+        <p>클라이언트는 대만의 유명 탄산음료 브랜드로, 미국식 루트비어를 대만에 처음 들여와 현지화하여 국민 음료로 자리잡았습니다. 1950년대 대만 경제 성장과 함께 성장하며 지역 문화 깊숙이 자리잡았고, 건강 효능에 대한 도시전설까지 만들어낼 정도로 사랑받았습니다. 하지만 최근 몇 년간 소비자 취향 변화와 Z세대의 새로운 트렌드 추구로 인해 매출이 정체되고 있습니다.</p>
+
+        <h2>과제</h2>
+        <p>오랜 역사를 가진 브랜드의 향수 어린 정체성을 유지하면서, 어떻게 젊은 소비자들의 관심을 다시 이끌어낼 수 있을까?</p>
+
+        <h2>진행 방식</h2>
+        <p>2025년 7월부터 9월까지 두 달간, 1000만 대만달러 예산으로 20~29세 소비자를 타깃으로 한 마케팅 캠페인을 제안했습니다. 브랜드의 향수 자산을 유지하면서도 젊은 세대에게 매력적으로 다가갈 수 있도록 통합 마케팅 활동을 설계했습니다.</p>
+
+        <h2>담당 업무</h2>
+        <p>STP 분석</p>
+        <p>비주얼 디자인</p>
+        <p>캠페인 기획</p>
+      `,
+    },
+    role: { en: 'STP Analysis, Visual Design, Campaign Ideation', zh: 'STP 分析、視覺設計、活動發想', ko: 'STP 분석, 비주얼 디자인, 캠페인 기획' },
+    tags: ['Advertising', 'PR', 'Marketing Strategy'],
+    link: '#',
+    images: [],
+  },
+  'adv-02': {
+    category: { en: 'Advertising & PR', zh: '公關廣告', ko: '광고 및 PR' },
+    title: { en: '55688 — More Than Just a Cab, Your Everyday Lifesaver', zh: '55688 — 不只 CAB，更是生活救星', ko: '55688 - 단순한 택시가 아닌, 일상의 든든한 조력자' },
+    desc: {
+      en: 'An annual PR campaign proposal repositioning Taiwan\'s largest taxi platform as an all-in-one lifestyle app for Gen Z.',
+      zh: '一份年度公關企劃提案，將台灣最大計程車平台重新定位為 Z 世代的全方位生活服務 App。',
+      ko: '대만 최대 택시 플랫폼을 Z세대를 위한 올인원 라이프스타일 앱으로 재포지셔닝하는 연간 PR 캠페인 제안입니다.',
+    },
+    overview: {
+      en: `
+        <h2>Background</h2>
+        <p>55688 is Taiwan's largest taxi platform with over 7.2 million registered members, built on two decades of trust as a traditional cab-hailing service. In recent years, the brand expanded into a lifestyle service platform — integrating diverse ride options, moving services, laundry, and more — under the positioning "Make your life easier." However, qualitative interviews revealed a communication gap: younger consumers still associate 55688 with traditional yellow cabs and are largely unaware of its broader lifestyle services.</p>
+
+        <h2>Core Message</h2>
+        <p>"More Than Just a Cab, Your Everyday Lifesaver" — reframing 55688 from a transportation tool into an all-in-one lifestyle companion for Gen Z.</p>
+
+        <h2>Target Audience</h2>
+        <p>Gen Z consumers aged 20–35 who value time autonomy and convenience, and rely on digital tools and apps to solve everyday tasks efficiently.</p>
+
+        <h2>Strategy & Execution</h2>
+        <p><strong>Phase 1 — "叫叫 CAB":</strong> Built brand awareness of 55688's diverse vehicle options through a "Taxi Encyclopedia" social campaign and an in-app stamp-collecting activity to drive engagement.</p>
+        <p><strong>Phase 2 — "Call A Backup":</strong> Deepened service awareness through illustrator collaborations, a laziness-level personality quiz, and an offline "Lazy Confession Booth" pop-up activation to generate media buzz.</p>
+        <p><strong>Phase 3 — "Chat And Book-it":</strong> Drove app downloads through a Chatbot-powered lifestyle assistant and KOL/community collaborations to sustain momentum from earlier phases.</p>
+
+        <h2>My Role</h2>
+        <p>Worked collaboratively with the full team on research, analysis, and campaign ideation from start to finish.</p>
+
+        <h2>Expected Outcomes</h2>
+        <p>Projected a 15%+ increase in ride orders, 5%+ growth in lifestyle service adoption, and stronger owned-media community engagement and media relationships.</p>
+      `,
+      zh: `
+        <h2>專案背景</h2>
+        <p>55688 深耕台灣市場二十餘年，擁有超過 720 萬會員，是台灣最具規模的計程車服務品牌。近年集團轉型為生活服務媒合平台，整合多元計程車、搬家、清潔等服務，主打「Make your life easier」的品牌定位。然而透過質性訪談發現，年輕世代對品牌的印象仍停留在傳統小黃計程車，普遍不知道 55688 APP 已整合多元生活服務。</p>
+
+        <h2>核心訊息</h2>
+        <p>「不只 CAB，更是生活救星」——將 55688 從單純的叫車工具，重新定位為 Z 世代日常生活的全方位好幫手。</p>
+
+        <h2>目標受眾</h2>
+        <p>20～35 歲的 Z 世代，重視生活品質與時間自主性，習慣透過數位工具與 APP 解決生活鎖事。</p>
+
+        <h2>執行策略</h2>
+        <p><strong>第一階段「叫叫 CAB」：</strong>透過「計程車圖鑑」社群宣傳與 APP 內集章活動，建立品牌擁有多元計程車的印象。</p>
+        <p><strong>第二階段「Call A Backup」：</strong>透過插畫家合作、懶惰程度分級心理測驗，以及線下「懶惰告解亭」實體活動，強化品牌服務多樣性的認知並創造媒體議題。</p>
+        <p><strong>第三階段「Chat And Book-it」：</strong>透過 Chatbot 智慧管家與 KOL、社團合作，推動 APP 下載並收攏前期操作的延續效應。</p>
+
+        <h2>我的角色</h2>
+        <p>與團隊成員一起從研究、分析到活動發想全程共同合作完成。</p>
+
+        <h2>預期效益</h2>
+        <p>預估叫車訂單量提升 15% 以上、生活服務使用率成長 5% 以上，並強化品牌自有社群經營與媒體關係。</p>
+      `,
+      ko: `
+        <h2>배경</h2>
+        <p>55688은 대만 최대 규모의 택시 플랫폼으로, 720만 명이 넘는 회원을 보유하고 있으며 20여 년간 전통적인 택시 호출 서비스로 신뢰를 쌓아왔습니다. 최근 몇 년간 브랜드는 다양한 차량 옵션, 이사, 세탁 등을 통합한 생활 서비스 플랫폼으로 확장하며 "Make your life easier"라는 포지셔닝을 내세웠습니다. 하지만 정성 조사 결과, 젊은 소비자들은 여전히 55688을 전통적인 노란 택시로 인식하고 있으며, 확장된 생활 서비스에 대해서는 거의 알지 못한다는 소통 격차가 드러났습니다.</p>
+
+        <h2>핵심 메시지</h2>
+        <p>"단순한 택시가 아닌, 일상의 든든한 조력자" — 55688을 이동 수단에서 Z세대를 위한 올인원 라이프스타일 파트너로 재포지셔닝합니다.</p>
+
+        <h2>타겟 오디언스</h2>
+        <p>시간의 자율성과 편리함을 중시하며, 디지털 도구와 앱으로 일상을 효율적으로 해결하는 20~35세 Z세대.</p>
+
+        <h2>전략 및 실행</h2>
+        <p><strong>1단계 "叫叫 CAB":</strong> "택시 도감" 소셜 캠페인과 앱 내 스탬프 수집 이벤트를 통해 55688의 다양한 차량 옵션에 대한 브랜드 인지도를 구축했습니다.</p>
+        <p><strong>2단계 "Call A Backup":</strong> 일러스트레이터 협업, 게으름 정도 성격 테스트, 오프라인 "게으름 고백 부스" 팝업 활동을 통해 서비스 인지도를 심화하고 미디어 화제성을 만들었습니다.</p>
+        <p><strong>3단계 "Chat And Book-it":</strong> 챗봇 기반 라이프스타일 어시스턴트와 KOL·커뮤니티 협업을 통해 앱 다운로드를 견인하고 이전 단계의 효과를 지속시켰습니다.</p>
+
+        <h2>담당 업무</h2>
+        <p>리서치, 분석, 캠페인 기획까지 팀 전체와 함께 처음부터 끝까지 협업했습니다.</p>
+
+        <h2>기대 효과</h2>
+        <p>탑승 주문량 15% 이상 증가, 생활 서비스 이용률 5% 이상 성장, 자체 소셜 커뮤니티 운영 및 미디어 관계 강화를 예상합니다.</p>
+      `,
+    },
+    role: { en: 'Team Collaboration — Research, Analysis, Campaign Ideation', zh: '團隊共同合作 — 研究、分析、活動發想', ko: '팀 협업 - 리서치, 분석, 캠페인 기획' },
+    tags: ['Advertising', 'PR', 'Marketing Strategy'],
+    link: '#',
+    images: [],
+  },
+  'adv-02': {
+    category: { en: 'Advertising & PR', zh: '公關廣告', ko: '광고 및 PR' },
+    title: { en: '55688 — More Than Just a Cab, Your Everyday Lifesaver', zh: '55688 — 不只 CAB，更是生活救星', ko: '55688 - 단순한 택시가 아닌, 일상의 든든한 조력자' },
+    desc: {
+      en: "An annual PR campaign proposal repositioning Taiwan's largest taxi platform as an all-in-one lifestyle companion for Gen Z.",
+      zh: '一份年度公關企劃提案，將台灣最大計程車平台重新定位為 Z 世代的全方位生活好幫手。',
+      ko: '대만 최대 택시 플랫폼을 Z세대를 위한 올인원 라이프스타일 파트너로 재포지셔닝하는 연간 PR 캠페인 제안입니다.',
+    },
+    overview: {
+      en: `
+        <h2>Background</h2>
+        <p>55688 is Taiwan's largest taxi platform with over 7.2 million registered members, built on two decades of trust as a traditional cab-hailing service. In recent years, the brand expanded into a lifestyle service platform — integrating diverse ride options, moving services, laundry, and more — under the positioning "Make your life easier." However, qualitative interviews revealed a communication gap: younger consumers still associate 55688 with traditional yellow cabs and are largely unaware of its broader lifestyle services.</p>
+
+        <h2>Core Message</h2>
+        <p>"More Than Just a Cab, Your Everyday Lifesaver" — reframing 55688 from a transportation tool into an all-in-one lifestyle companion for Gen Z.</p>
+
+        <h2>Target Audience</h2>
+        <p>Gen Z consumers aged 20–35 who value time autonomy and convenience, and rely on digital tools and apps to solve everyday tasks efficiently.</p>
+
+        <h2>Strategy & Execution</h2>
+        <p><strong>Phase 1 — "叫叫 CAB":</strong> Built brand awareness of 55688's diverse vehicle options through a "Taxi Encyclopedia" social campaign and an in-app stamp-collecting activity to drive engagement.</p>
+        <p><strong>Phase 2 — "Call A Backup":</strong> Deepened service awareness through illustrator collaborations, a laziness-level personality quiz, and an offline "Lazy Confession Booth" pop-up activation to generate media buzz.</p>
+        <p><strong>Phase 3 — "Chat And Book-it":</strong> Drove app downloads through a Chatbot-powered lifestyle assistant and KOL/community collaborations to sustain momentum from earlier phases.</p>
+
+        <h2>My Role</h2>
+        <p>Collaborated with the full team on every stage of the proposal, from research and analysis to strategy and campaign ideation, through group brainstorming sessions.</p>
+
+        <h2>Outcome</h2>
+        <p>Projected a 15%+ increase in ride orders, 5%+ growth in lifestyle service adoption, and stronger owned-media community engagement and media relationships.</p>
+      `,
+      zh: `
+        <h2>專案背景</h2>
+        <p>55688 深耕台灣市場二十餘年，擁有超過 720 萬會員，是台灣最具規模的計程車服務品牌。近年集團轉型為生活服務媒合平台，整合多元計程車、搬家、清潔等服務，主打「Make your life easier」的品牌定位。然而透過質性訪談發現，年輕世代對品牌的印象仍停留在傳統小黃計程車，普遍不知道 55688 APP 已整合多元生活服務。</p>
+
+        <h2>核心訊息</h2>
+        <p>「不只 CAB，更是生活救星」——將 55688 從單純的叫車工具，重新定位為 Z 世代日常生活的全方位好幫手。</p>
+
+        <h2>目標受眾</h2>
+        <p>20～35 歲的 Z 世代，重視生活品質與時間自主性，習慣透過數位工具與 APP 解決生活鎖事。</p>
+
+        <h2>執行策略</h2>
+        <p><strong>第一階段「叫叫 CAB」：</strong>透過「計程車圖鑑」社群宣傳與 APP 內集章活動，建立品牌擁有多元計程車的印象。</p>
+        <p><strong>第二階段「Call A Backup」：</strong>透過插畫家合作、懶惰程度分級心理測驗，以及線下「懶惰告解亭」實體活動，強化品牌服務多樣性的認知並創造媒體議題。</p>
+        <p><strong>第三階段「Chat And Book-it」：</strong>透過 Chatbot 智慧管家與 KOL、社團合作，推動 APP 下載並收攏前期操作的延續效應。</p>
+
+        <h2>我的角色</h2>
+        <p>與團隊全程共同參與，從研究分析到策略發想、活動企劃，都是透過小組共同腦力激盪完成。</p>
+
+        <h2>成果</h2>
+        <p>預估叫車訂單量提升 15% 以上、生活服務使用率成長 5% 以上，並強化品牌自有社群經營與媒體關係。</p>
+      `,
+      ko: `
+        <h2>배경</h2>
+        <p>55688은 대만 최대 규모의 택시 플랫폼으로, 720만 명이 넘는 회원을 보유하고 있으며 20여 년간 전통적인 택시 호출 서비스로 신뢰를 쌓아왔습니다. 최근 몇 년간 브랜드는 다양한 차량 옵션, 이사, 세탁 등을 통합한 생활 서비스 플랫폼으로 확장하며 "Make your life easier"라는 포지셔닝을 내세웠습니다. 하지만 정성 조사 결과, 젊은 소비자들은 여전히 55688을 전통적인 노란 택시로 인식하고 있으며, 확장된 생활 서비스에 대해서는 거의 알지 못한다는 소통 격차가 드러났습니다.</p>
+
+        <h2>핵심 메시지</h2>
+        <p>"단순한 택시가 아닌, 일상의 든든한 조력자" — 55688을 이동 수단에서 Z세대를 위한 올인원 라이프스타일 파트너로 재포지셔닝합니다.</p>
+
+        <h2>타겟 오디언스</h2>
+        <p>시간의 자율성과 편리함을 중시하며, 디지털 도구와 앱으로 일상을 효율적으로 해결하는 20~35세 Z세대.</p>
+
+        <h2>전략 및 실행</h2>
+        <p><strong>1단계 "叫叫 CAB":</strong> "택시 도감" 소셜 캠페인과 앱 내 스탬프 수집 이벤트를 통해 55688의 다양한 차량 옵션에 대한 브랜드 인지도를 구축했습니다.</p>
+        <p><strong>2단계 "Call A Backup":</strong> 일러스트레이터 협업, 게으름 정도 성격 테스트, 오프라인 "게으름 고백 부스" 팝업 활동을 통해 서비스 인지도를 심화하고 미디어 화제성을 만들었습니다.</p>
+        <p><strong>3단계 "Chat And Book-it":</strong> 챗봇 기반 라이프스타일 어시스턴트와 KOL·커뮤니티 협업을 통해 앱 다운로드를 견인하고 이전 단계의 효과를 지속시켰습니다.</p>
+
+        <h2>담당 업무</h2>
+        <p>리서치부터 전략 수립, 캠페인 기획까지 전 과정을 팀 전체가 함께 브레인스토밍하며 진행했습니다.</p>
+
+        <h2>성과</h2>
+        <p>탑승 주문량 15% 이상 증가, 생활 서비스 이용률 5% 이상 성장, 자체 소셜 커뮤니티 운영 및 미디어 관계 강화를 예상합니다.</p>
+      `,
+    },
+    role: { en: 'Collaborative — Research, Strategy & Campaign Ideation (Team Brainstorming)', zh: '團隊共同協作 — 研究分析、策略與活動發想（小組共同腦力激盪）', ko: '팀 협업 - 리서치, 전략 및 캠페인 기획 (팀 브레인스토밍)' },
+    tags: ['Advertising', 'PR', 'Marketing Strategy'],
+    link: '#',
+    images: [],
+  },
+  'adv-02': {
+    category: { en: 'Advertising & PR', zh: '公關廣告', ko: '광고 및 PR' },
+    title: { en: '55688 — More Than Just a Cab, Your Everyday Lifesaver', zh: '55688 — 不只 CAB，更是生活救星', ko: '55688 - 단순한 택시가 아닌, 일상의 든든한 조력자' },
+    desc: {
+      en: 'An annual PR campaign proposal repositioning 55688 from a traditional taxi service into an all-in-one lifestyle platform for Gen Z.',
+      zh: '一份年度公關企劃提案，將 55688 從傳統計程車服務重新定位為 Z 世代的全方位生活服務平台。',
+      ko: '55688을 전통적인 택시 서비스에서 Z세대를 위한 올인원 라이프스타일 플랫폼으로 재포지셔닝하는 연간 PR 캠페인 제안입니다.',
+    },
+    overview: {
+      en: `
+        <h2>Background</h2>
+        <p>55688 is Taiwan's largest taxi platform with over 7.2 million registered members, built on two decades of trust as a traditional cab-hailing service. In recent years, the brand expanded into a lifestyle service platform — integrating diverse ride options, moving services, laundry, and more — under the positioning "Make your life easier." However, qualitative interviews revealed a communication gap: younger consumers still associate 55688 with traditional yellow cabs and are largely unaware of its broader lifestyle services.</p>
+
+        <h2>Core Message</h2>
+        <p>"More Than Just a Cab, Your Everyday Lifesaver" — reframing 55688 from a transportation tool into an all-in-one lifestyle companion for Gen Z.</p>
+
+        <h2>Target Audience</h2>
+        <p>Gen Z consumers aged 20–35 who value time autonomy and convenience, and rely on digital tools and apps to solve everyday tasks efficiently.</p>
+
+        <h2>Strategy & Execution</h2>
+        <p>A six-month, NT$3.6 million integrated campaign across three phases:</p>
+        <p><strong>Phase 1 — "叫叫 CAB":</strong> Built brand awareness of 55688's diverse vehicle options through a "Taxi Encyclopedia" social campaign and an in-app stamp-collecting activity to drive engagement.</p>
+        <p><strong>Phase 2 — "Call A Backup":</strong> Deepened service awareness through illustrator collaborations, a laziness-level personality quiz, and an offline "Lazy Confession Booth" pop-up activation to generate media buzz.</p>
+        <p><strong>Phase 3 — "Chat And Book-it":</strong> Drove app downloads through a Chatbot-powered lifestyle assistant and KOL/community collaborations to sustain momentum from earlier phases.</p>
+
+        <h2>Outcome</h2>
+        <p>Projected a 15%+ increase in ride orders, 5%+ growth in lifestyle service adoption, and stronger owned-media community engagement and media relationships.</p>
+      `,
+      zh: `
+        <h2>專案背景</h2>
+        <p>55688 深耕台灣市場二十餘年,擁有超過 720 萬會員,是台灣最具規模的計程車服務品牌。近年集團轉型為生活服務媒合平台,整合多元計程車、搬家、清潔等服務,主打「Make your life easier」的品牌定位。然而透過質性訪談發現,年輕世代對品牌的印象仍停留在傳統小黃計程車,普遍不知道 55688 APP 已整合多元生活服務。</p>
+
+        <h2>核心訊息</h2>
+        <p>「不只 CAB,更是生活救星」——將 55688 從單純的叫車工具,重新定位為 Z 世代日常生活的全方位好幫手。</p>
+
+        <h2>目標受眾</h2>
+        <p>20～35 歲的 Z 世代,重視生活品質與時間自主性,習慣透過數位工具與 APP 解決生活鎖事。</p>
+
+        <h2>執行策略</h2>
+        <p>規劃為期半年、預算新台幣 360 萬元的三階段整合行銷活動:</p>
+        <p><strong>第一階段「叫叫 CAB」：</strong>透過「計程車圖鑑」社群宣傳與 APP 內集章活動,建立品牌擁有多元計程車的印象。</p>
+        <p><strong>第二階段「Call A Backup」：</strong>透過插畫家合作、懶惰程度分級心理測驗,以及線下「懶惰告解亭」實體活動,強化品牌服務多樣性的認知並創造媒體議題。</p>
+        <p><strong>第三階段「Chat And Book-it」：</strong>透過 Chatbot 智慧管家與 KOL、社團合作,推動 APP 下載並收攏前期操作的延續效應。</p>
+
+        <h2>預期效益</h2>
+        <p>預估叫車訂單量提升 15% 以上、生活服務使用率成長 5% 以上,並強化品牌自有社群經營與媒體關係。</p>
+      `,
+      ko: `
+        <h2>배경</h2>
+        <p>55688은 대만 최대 규모의 택시 플랫폼으로, 720만 명이 넘는 회원을 보유하고 있으며 20여 년간 전통적인 택시 호출 서비스로 신뢰를 쌓아왔습니다. 최근 몇 년간 브랜드는 다양한 차량 옵션, 이사, 세탁 등을 통합한 생활 서비스 플랫폼으로 확장하며 "Make your life easier"라는 포지셔닝을 내세웠습니다. 하지만 정성 조사 결과, 젊은 소비자들은 여전히 55688을 전통적인 노란 택시로 인식하고 있으며, 확장된 생활 서비스에 대해서는 거의 알지 못한다는 소통 격차가 드러났습니다.</p>
+
+        <h2>핵심 메시지</h2>
+        <p>"단순한 택시가 아닌, 일상의 든든한 조력자" — 55688을 이동 수단에서 Z세대를 위한 올인원 라이프스타일 파트너로 재포지셔닝합니다.</p>
+
+        <h2>타겟 오디언스</h2>
+        <p>시간의 자율성과 편리함을 중시하며, 디지털 도구와 앱으로 일상을 효율적으로 해결하는 20~35세 Z세대.</p>
+
+        <h2>전략 및 실행</h2>
+        <p>6개월간, 대만달러 360만 원 예산으로 진행되는 3단계 통합 캠페인:</p>
+        <p><strong>1단계 "叫叫 CAB":</strong> "택시 도감" 소셜 캠페인과 앱 내 스탬프 수집 이벤트를 통해 55688의 다양한 차량 옵션에 대한 브랜드 인지도를 구축했습니다.</p>
+        <p><strong>2단계 "Call A Backup":</strong> 일러스트레이터 협업, 게으름 정도 성격 테스트, 오프라인 "게으름 고백 부스" 팝업 활동을 통해 서비스 인지도를 심화하고 미디어 화제성을 만들었습니다.</p>
+        <p><strong>3단계 "Chat And Book-it":</strong> 챗봇 기반 라이프스타일 어시스턴트와 KOL·커뮤니티 협업을 통해 앱 다운로드를 견인하고 이전 단계의 효과를 지속시켰습니다.</p>
+
+        <h2>기대 효과</h2>
+        <p>탑승 주문량 15% 이상 증가, 생활 서비스 이용률 5% 이상 성장, 자체 소셜 커뮤니티 운영 및 미디어 관계 강화를 예상합니다.</p>
+      `,
+    },
+    role: { en: 'Collaborative team brainstorming — joint analysis and strategy development', zh: '全組共同發想 — 分析與企劃皆為團隊共同討論完成', ko: '팀 공동 브레인스토밍 - 분석 및 전략을 팀 전체가 함께 진행' },
+    tags: ['Advertising', 'PR', 'Marketing Strategy'],
     link: '#',
     images: [],
   },
@@ -381,23 +736,25 @@ const translations = {
     'projects.featured.title': 'Graduation Project: Pathways in Bloom',
     'projects.featured.desc': 'Resilient frames, warm memories. An interactive journey through Taiwan’s flourishing ironwork heritage.',
     'projects.uiux.01.title': 'Finance App Redesign',
-    'projects.uiux.02.title': 'Medical Booking UX',
+    'projects.uiux.02.title': 'Undiscovered Taipei — App Redesign',
     'projects.uiux.03.title': 'HomeMate — a rental & roommate-matching app design',
     'projects.prog.01.title': 'Taiwanese Famous Beverage Promotion Campaign',
     'projects.graphic.01.title': 'Cafe Logo Design',
+    'projects.adv.01.title': 'Beverage Brand Revival — Marketing Proposal',
+    'projects.adv.02.title': '55688 — More Than Just a Cab, Your Everyday Lifesaver',
     'projects.photo.01.title': 'Photography',
     'skills.label': 'Expertise',
     'skills.title': 'What I Do',
     'skills.uxresearch': 'User interviews, usability testing, competitive analysis — turning real data into design decisions.',
     'skills.uidesign': 'Building refined visual languages, from component design to complete Design Systems.',
-    'skills.interaction.title': 'Interaction Design',
-    'skills.interaction': 'Crafting smooth user flows and micro-interactions that make every action meaningful.',
-    'skills.a11y.title': 'Accessibility',
-    'skills.a11y': 'Following WCAG standards to ensure products are friendly and accessible to all users.',
-    'skills.collab.title': 'Cross-team Collaboration',
-    'skills.collab': 'Working seamlessly with PMs, engineers, and marketing to ensure designs ship within technical constraints.',
-    'skills.datadriven.title': 'Data-driven Design',
-    'skills.datadriven': 'Using A/B testing and analytics to continuously optimize user experience and conversion rates.',
+    'skills.adcampaign.title': 'Advertising & Campaign Strategy',
+    'skills.adcampaign': 'Planning integrated PR and marketing campaigns — from audience insight to core message and execution.',
+    'skills.frontend.title': 'Front-End Development',
+    'skills.frontend': 'Building interactive interfaces and small web apps with JavaScript, HTML, and CSS.',
+    'skills.photography.title': 'Photography',
+    'skills.photography': 'Capturing portraits and everyday moments with an eye for light, composition, and story.',
+    'skills.curation.title': 'Exhibition Curation',
+    'skills.curation': 'Planning and coordinating exhibitions — from concept and spatial design to on-site execution.',
     'contact.label': 'Contact me',
     'contact.cta': 'Have a great idea?<br>Let\'s <em>design it</em><br>together.',
     'contact.name': 'Name',
@@ -439,23 +796,25 @@ const translations = {
     'projects.featured.title': '畢業專題展覽：阡陌．盛放',
     'projects.featured.desc': '一句話簡短描述這個專案的核心內容。',
     'projects.uiux.01.title': '金融 App 重新設計',
-    'projects.uiux.02.title': '醫療預約系統 UX',
+    'projects.uiux.02.title': '「現在玩台北」App Redesign',
     'projects.uiux.03.title': '居然有你 — 租屋與室友匹配 app 設計',
     'projects.prog.01.title': '台灣知名飲料品牌行銷活動設計',
     'projects.graphic.01.title': '電商平台視覺設計',
+    'projects.adv.01.title': '經典氣泡飲料品牌再造 — 行銷企劃提案',
+    'projects.adv.02.title': '55688 — 不只 CAB，更是生活救星',
     'projects.photo.01.title': '攝影作品',
     'skills.label': 'Expertise',
     'skills.title': '我能做什麼',
     'skills.uxresearch': '使用者訪談、可用性測試、競品分析，將真實數據轉化為設計決策。',
     'skills.uidesign': '建立精緻一致的視覺語言，從元件設計到完整的 Design System。',
-    'skills.interaction.title': '互動設計',
-    'skills.interaction': '打造流暢的使用者流程與微互動，讓每個操作都有意義。',
-    'skills.a11y.title': '無障礙設計',
-    'skills.a11y': '遵循 WCAG 標準，確保產品對所有使用者都友善且可及。',
-    'skills.collab.title': '跨部門協作',
-    'skills.collab': '與 PM、工程師、行銷無縫協作，確保設計落地且符合技術限制。',
-    'skills.datadriven.title': '數據驅動設計',
-    'skills.datadriven': '透過 A/B Testing 與數據分析持續優化產品體驗與轉換率。',
+    'skills.adcampaign.title': '廣告企劃',
+    'skills.adcampaign': '規劃整合行銷與公關企劃，從受眾洞察到核心訊息與執行方案。',
+    'skills.frontend.title': '前端開發',
+    'skills.frontend': '使用 JavaScript、HTML、CSS 打造互動介面與小型網頁應用。',
+    'skills.photography.title': '攝影',
+    'skills.photography': '以光線、構圖與敘事捕捉人像與日常時刻。',
+    'skills.curation.title': '藝術策展',
+    'skills.curation': '規劃並統籌展覽，從概念發想、空間設計到現場執行。',
     'contact.label': 'Contact me',
     'contact.cta': '有個好想法？<br>一起把它<br><em>設計出來</em>',
     'contact.name': '姓名',
@@ -497,21 +856,25 @@ const translations = {
     'projects.featured.title': '졸업 프로젝트 제목',
     'projects.featured.desc': '프로젝트 핵심 내용 한 줄 설명.',
     'projects.uiux.01.title': '금융 앱 리디자인',
-    'projects.uiux.02.title': '의료 예약 UX',
+    'projects.uiux.02.title': '언디스커버드 타이베이 - 앱 리디자인',
+    'projects.uiux.03.title': 'HomeMate - 임대 및 룸메이트 매칭 앱 디자인',
     'projects.prog.01.title': 'SaaS 대시보드 디자인',
     'projects.graphic.01.title': 'E-커머스 비주얼 디자인',
+    'projects.adv.01.title': '전통 탄산음료 브랜드 리뉴얼 - 마케팅 제안',
+    'projects.adv.02.title': '55688 - 단순한 택시가 아닌, 일상의 든든한 조력자',
+    'projects.photo.01.title': '사진 작품',
     'skills.label': '전문성',
     'skills.title': '제가 하는 일',
     'skills.uxresearch': '사용자 인터뷰, 사용성 테스트, 경쟁사 분석 — 실제 데이터를 디자인 결정으로 전환합니다.',
     'skills.uidesign': '컴포넌트 디자인부터 완성된 디자인 시스템까지 정교한 시각 언어를 구축합니다.',
-    'skills.interaction.title': '인터랙션 디자인',
-    'skills.interaction': '모든 행동에 의미를 부여하는 부드러운 사용자 흐름과 마이크로 인터랙션을 제작합니다.',
-    'skills.a11y.title': '접근성',
-    'skills.a11y': 'WCAG 기준을 따라 모든 사용자에게 친화적인 제품을 만듭니다.',
-    'skills.collab.title': '크로스팀 협업',
-    'skills.collab': 'PM, 엔지니어, 마케팅과 원활하게 협력하여 기술 제약 내에서 디자인을 구현합니다.',
-    'skills.datadriven.title': '데이터 기반 디자인',
-    'skills.datadriven': 'A/B 테스트와 분석을 통해 사용자 경험과 전환율을 지속적으로 최적화합니다.',
+    'skills.adcampaign.title': '광고 캠페인 전략',
+    'skills.adcampaign': '오디언스 인사이트부터 핵심 메시지, 실행까지 통합 마케팅·PR 캠페인을 기획합니다.',
+    'skills.frontend.title': '프론트엔드 개발',
+    'skills.frontend': 'JavaScript, HTML, CSS로 인터랙티브한 인터페이스와 소형 웹 앱을 제작합니다.',
+    'skills.photography.title': '사진',
+    'skills.photography': '빛, 구도, 스토리를 담아 인물과 일상의 순간을 포착합니다.',
+    'skills.curation.title': '전시 기획',
+    'skills.curation': '콘셉트 기획부터 공간 디자인, 현장 실행까지 전시를 기획하고 총괄합니다.',
     'contact.label': '연락하기',
     'contact.cta': '좋은 아이디어가 있나요?<br>함께 <em>디자인</em>해요.',
     'contact.name': '이름',
